@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JavaPractice.StudentInfoTest">
+      <class name="JavaPractice.UniqueArrayNumberTest">
         <methods>
-          <include name="testStudentInfo"/>
-          <include name="testStudentUsingSet"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- JavaPractice.StudentInfoTest -->
+      </class> <!-- JavaPractice.UniqueArrayNumberTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

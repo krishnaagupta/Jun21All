@@ -71,7 +71,7 @@ public class StudentInfoTest {
 		for(StudentInfo s :studentHash.keySet()) {
 			System.out.println("Student details= "+ s);
 		}
-		Collections.so
+		//Collections.so
 	}
 	
 	@Test 
