@@ -1,5 +1,7 @@
 package JavaPractice;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -31,14 +33,19 @@ public class UniqueOccurences {
 	}
 	
 	public static Map.Entry<Character,Integer> maxOccurence(Map<Character,Integer> inputMap) {
-		Map<Character,Integer> outputMap=new HashMap();
-	
+		//Map<Character,Integer> outputMap=new HashMap();
+		//int maxValue= Collections.max(inputMap.values());
+		int maxValue=-1;
+		Character maxKey=null;
+		Map.Entry<Character,Integer>  maxEntry=null;
 		for (Map.Entry<Character,Integer> entry :inputMap.entrySet()) { 
-            System.out.println("Key = " + entry.getKey() +
-                             ", Value = " + entry.getValue());
-  
+			if (maxValue<entry.getValue()) {
+				maxValue=entry.getValue();
+				maxKey=entry.getKey();
+				maxEntry=entry;
+			}
 		}
+		return maxEntry;
 		
-		return outputMap;
 	}
 }

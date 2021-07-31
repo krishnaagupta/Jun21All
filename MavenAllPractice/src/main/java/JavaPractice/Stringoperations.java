@@ -1,7 +1,16 @@
 package JavaPractice;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
+
+import javax.swing.InputMap;
+
+import org.testng.annotations.Test;
 
 public class Stringoperations {
 	public static void main(String[] args) {
@@ -99,7 +108,7 @@ public class Stringoperations {
 		System.out.println("output"+map1);
 	}
 
-	
+
 	public static void occurenceofword () {
 		System.out.println("Enter the string for  wordoccurrence");
 		String Str ,str1[];
@@ -108,7 +117,7 @@ public class Stringoperations {
 		str1=Str.split(" ");
 		HashMap<String ,Integer>map1=new HashMap();
 		for (int i=0;i<str1.length;i++) {
-			
+
 			map1.put(str1[i], map1.getOrDefault(str1[i], 0)+1);
 		}
 		System.out.println("output"+map1);
@@ -126,11 +135,34 @@ public class Stringoperations {
 			System.out.println("palindrome");
 		}
 		else 
-			{
+		{
 			System.out.println("not a palindrome");
 		}
-		
-		
+
+
 	}
-	
+	//Q15. Given a string print the unique words of the string. 
+	/*public static ArrayList UniqueWordsOfString(Map<String, Integer>inputMap){
+		Map<String, Integer>result= null;
+		ArrayList<String> outputArr=new ArrayList();
+		for(Map.Entry<String, Integer> entry: inputMap.entrySet()) {
+			if (entry.getValue()==1) {
+				outputArr.add(entry.getKey().toString());
+			}
+		}
+		return outputArr;
+
+	}*/
+
+	public static Set<String> uniqueWordsOfString(String inputStr){
+
+		String [] inputArr=inputStr.split(" ");
+		Set<String>uniqueOutputString =new TreeSet<String>();
+		for(String input:inputArr){
+			uniqueOutputString.add(input);
+		}
+
+		return uniqueOutputString;
+	}
+
 }

@@ -38,7 +38,7 @@ public class StudentInfo implements Comparable<StudentInfo> {
 	
 	}
 	
-	public int compareTo(StudentInfo other) {
+	public int compare(StudentInfo other) {
 		
 		if (other==null) {
 			return -1;

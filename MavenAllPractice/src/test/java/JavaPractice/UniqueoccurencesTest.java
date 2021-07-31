@@ -1,6 +1,7 @@
 package JavaPractice;
 
 import java.util.HashMap;
+import java.util.Map;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -52,8 +53,12 @@ public class UniqueoccurencesTest {
 		expectedMap1.put(' ', 3);
 		outputMap=UniqueOccurences.duplicateLetters(InputStr);
 		System.out.println(outputMap);
-		Assert.assertEquals(outputMap, expectedMap1);	
+		Assert.assertEquals(outputMap, expectedMap1);
+		
+		Map.Entry<Character,Integer>actual = UniqueOccurences.maxOccurence(outputMap);
+		
+		Assert.assertEquals(actual.getKey().charValue(),' ');
+		Assert.assertEquals(actual.getValue().intValue(), 3);
 	}
-	@Test
-	public void test4() {
+	
 }

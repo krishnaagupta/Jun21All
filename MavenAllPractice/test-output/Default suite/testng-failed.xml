@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JavaPractice.UniqueArrayNumberTest">
+      <class name="JavaPractive2Test.StactQueueLinkedListTest">
         <methods>
           <include name="test1"/>
         </methods>
-      </class> <!-- JavaPractice.UniqueArrayNumberTest -->
+      </class> <!-- JavaPractive2Test.StactQueueLinkedListTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

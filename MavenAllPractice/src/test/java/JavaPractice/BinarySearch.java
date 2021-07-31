@@ -3,7 +3,7 @@ package JavaPractice;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class BinarySearchTest {
+public class BinarySearch {
 
 	@Test
 	public void simpleTest() {
