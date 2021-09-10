@@ -1,0 +1,356 @@
+INFO	2021-08-16 12:42:38,980	1	Login	[main]	hi started
+INFO	2021-08-16 12:42:38,980	1	Login	[main]	started
+INFO	2021-08-16 12:46:35,166	0	Base.Login	[main]	hi started
+INFO	2021-08-16 12:46:35,170	4	Base.Login	[main]	started
+INFO	2021-08-16 12:56:05,565	0	Base.Login	[main]	hi started
+INFO	2021-08-16 12:56:05,569	4	Base.Login	[main]	started
+INFO	2021-08-17 10:56:13,020	0	Base.Login	[main]	hi started
+INFO	2021-08-17 10:56:13,023	3	Base.Login	[main]	started
+INFO	2021-08-17 11:10:19,140	0	Base.Login	[main]	hi started
+INFO	2021-08-17 11:10:19,143	3	Base.Login	[main]	started
+INFO	2021-08-17 11:12:01,489	0	Base.Login	[main]	hi started
+INFO	2021-08-17 11:12:01,494	5	Base.Login	[main]	started
+INFO	2021-08-17 11:12:01,511	0	Base.Login	[main]	hi started
+INFO	2021-08-17 11:12:01,514	3	Base.Login	[main]	started
+INFO	2021-08-17 11:13:23,551	0	Base.Login	[main]	hi started
+INFO	2021-08-17 11:13:23,556	5	Base.Login	[main]	started
+INFO	2021-08-17 11:18:09,323	0	Base.Login	[main]	hi started
+INFO	2021-08-17 11:18:09,326	3	Base.Login	[main]	started
+INFO	2021-08-17 11:23:03,579	0	Base.Login	[main]	hi started
+INFO	2021-08-17 11:23:03,582	3	Base.Login	[main]	started
+INFO	2021-08-17 11:25:19,923	0	Base.Login	[main]	hi started
+INFO	2021-08-17 11:25:19,928	5	Base.Login	[main]	started
+INFO	2021-08-17 11:27:57,501	0	Base.Login	[main]	hi started
+INFO	2021-08-17 11:27:57,506	5	Base.Login	[main]	started
+INFO	2021-08-17 11:42:30,526	1	Base.Login	[main]	hi started
+INFO	2021-08-17 11:42:30,529	4	Base.Login	[main]	started
+INFO	2021-08-17 11:55:25,014	0	Base.Login	[main]	hi started
+INFO	2021-08-17 11:55:25,018	4	Base.Login	[main]	started
+INFO	2021-08-17 11:56:30,272	0	Base.Login	[main]	hi started
+INFO	2021-08-17 11:56:30,275	3	Base.Login	[main]	started
+INFO	2021-08-17 11:57:48,980	0	Base.Login	[main]	hi started
+INFO	2021-08-17 11:57:48,983	3	Base.Login	[main]	started
+INFO	2021-08-17 12:05:05,440	1	Base.Login	[main]	hi started
+INFO	2021-08-17 12:05:05,443	4	Base.Login	[main]	started
+INFO	2021-08-17 12:26:13,453	0	Base.Login	[main]	hi started
+INFO	2021-08-17 12:26:13,457	4	Base.Login	[main]	started
+DEBUG	2021-08-17 12:26:17,919	4466	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:26:17,920	4467	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+DEBUG	2021-08-17 12:26:17,921	4468	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("index.ftl"): Found
+DEBUG	2021-08-17 12:26:17,922	4469	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+DEBUG	2021-08-17 12:26:18,153	4700	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:26:18,157	4704	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+DEBUG	2021-08-17 12:26:18,160	4707	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("head.ftl"): Found
+DEBUG	2021-08-17 12:26:18,163	4710	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+DEBUG	2021-08-17 12:26:18,171	4718	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:26:18,173	4720	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+DEBUG	2021-08-17 12:26:18,174	4721	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("nav.ftl"): Found
+DEBUG	2021-08-17 12:26:18,174	4721	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+DEBUG	2021-08-17 12:26:18,193	4740	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:26:18,193	4740	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:26:18,195	4742	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+DEBUG	2021-08-17 12:26:18,195	4742	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+DEBUG	2021-08-17 12:26:18,206	4753	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:26:18,207	4754	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+DEBUG	2021-08-17 12:26:18,207	4754	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+DEBUG	2021-08-17 12:26:18,207	4754	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+DEBUG	2021-08-17 12:26:18,228	4775	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:26:18,229	4776	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+DEBUG	2021-08-17 12:26:18,229	4776	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+DEBUG	2021-08-17 12:26:18,229	4776	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+DEBUG	2021-08-17 12:26:18,264	4811	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:26:18,266	4813	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:26:18,267	4814	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+DEBUG	2021-08-17 12:26:18,267	4814	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+DEBUG	2021-08-17 12:26:18,277	4824	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:26:18,279	4826	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:26:18,279	4826	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+DEBUG	2021-08-17 12:26:18,279	4826	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+DEBUG	2021-08-17 12:26:18,284	4831	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:26:18,284	4831	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:26:18,285	4832	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+DEBUG	2021-08-17 12:26:18,285	4832	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+DEBUG	2021-08-17 12:26:18,289	4836	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:26:18,289	4836	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:26:18,290	4837	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+DEBUG	2021-08-17 12:26:18,290	4837	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+DEBUG	2021-08-17 12:26:18,297	4844	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:26:18,298	4845	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:26:18,298	4845	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+DEBUG	2021-08-17 12:26:18,299	4846	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+INFO	2021-08-17 12:35:49,154	0	Base.Login	[main]	hi started
+INFO	2021-08-17 12:35:49,159	5	Base.Login	[main]	started
+DEBUG	2021-08-17 12:35:53,650	4496	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:35:53,651	4497	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+DEBUG	2021-08-17 12:35:53,652	4498	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("index.ftl"): Found
+DEBUG	2021-08-17 12:35:53,652	4498	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+DEBUG	2021-08-17 12:35:53,836	4682	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:35:53,839	4685	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+DEBUG	2021-08-17 12:35:53,842	4688	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("head.ftl"): Found
+DEBUG	2021-08-17 12:35:53,843	4689	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+DEBUG	2021-08-17 12:35:53,856	4702	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:35:53,857	4703	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+DEBUG	2021-08-17 12:35:53,859	4705	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("nav.ftl"): Found
+DEBUG	2021-08-17 12:35:53,859	4705	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+DEBUG	2021-08-17 12:35:53,876	4722	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:35:53,877	4723	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:35:53,878	4724	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+DEBUG	2021-08-17 12:35:53,878	4724	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+DEBUG	2021-08-17 12:35:53,890	4736	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:35:53,891	4737	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+DEBUG	2021-08-17 12:35:53,891	4737	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+DEBUG	2021-08-17 12:35:53,891	4737	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+DEBUG	2021-08-17 12:35:53,915	4761	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:35:53,916	4762	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+DEBUG	2021-08-17 12:35:53,916	4762	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+DEBUG	2021-08-17 12:35:53,916	4762	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+DEBUG	2021-08-17 12:35:53,953	4799	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:35:53,955	4801	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:35:53,956	4802	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+DEBUG	2021-08-17 12:35:53,956	4802	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+DEBUG	2021-08-17 12:35:53,964	4810	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:35:53,966	4812	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:35:53,967	4813	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+DEBUG	2021-08-17 12:35:53,968	4814	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+DEBUG	2021-08-17 12:35:53,976	4822	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:35:53,976	4822	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:35:53,978	4824	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+DEBUG	2021-08-17 12:35:53,979	4825	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+DEBUG	2021-08-17 12:35:53,983	4829	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:35:53,984	4830	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:35:53,984	4830	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+DEBUG	2021-08-17 12:35:53,985	4831	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+DEBUG	2021-08-17 12:35:53,993	4839	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:35:53,994	4840	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:35:53,994	4840	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+DEBUG	2021-08-17 12:35:53,994	4840	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+INFO	2021-08-17 12:40:35,630	1	Base.Login	[main]	hi started
+INFO	2021-08-17 12:40:35,633	4	Base.Login	[main]	started
+DEBUG	2021-08-17 12:40:40,424	4795	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:40:40,426	4797	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+DEBUG	2021-08-17 12:40:40,427	4798	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("index.ftl"): Found
+DEBUG	2021-08-17 12:40:40,427	4798	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+DEBUG	2021-08-17 12:40:40,624	4995	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:40:40,628	4999	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+DEBUG	2021-08-17 12:40:40,630	5001	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("head.ftl"): Found
+DEBUG	2021-08-17 12:40:40,632	5003	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+DEBUG	2021-08-17 12:40:40,646	5017	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:40:40,647	5018	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+DEBUG	2021-08-17 12:40:40,648	5019	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("nav.ftl"): Found
+DEBUG	2021-08-17 12:40:40,648	5019	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+DEBUG	2021-08-17 12:40:40,667	5038	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:40:40,667	5038	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:40:40,668	5039	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+DEBUG	2021-08-17 12:40:40,668	5039	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+DEBUG	2021-08-17 12:40:40,680	5051	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:40:40,680	5051	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+DEBUG	2021-08-17 12:40:40,681	5052	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+DEBUG	2021-08-17 12:40:40,681	5052	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+DEBUG	2021-08-17 12:40:40,768	5139	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:40:40,771	5142	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+DEBUG	2021-08-17 12:40:40,772	5143	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+DEBUG	2021-08-17 12:40:40,772	5143	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+DEBUG	2021-08-17 12:40:40,813	5184	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:40:40,815	5186	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:40:40,815	5186	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+DEBUG	2021-08-17 12:40:40,815	5186	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+DEBUG	2021-08-17 12:40:40,823	5194	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:40:40,824	5195	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:40:40,825	5196	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+DEBUG	2021-08-17 12:40:40,827	5198	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+DEBUG	2021-08-17 12:40:40,832	5203	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:40:40,833	5204	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:40:40,834	5205	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+DEBUG	2021-08-17 12:40:40,835	5206	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+DEBUG	2021-08-17 12:40:40,838	5209	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:40:40,839	5210	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:40:40,839	5210	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+DEBUG	2021-08-17 12:40:40,840	5211	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+DEBUG	2021-08-17 12:40:40,846	5217	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:40:40,847	5218	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:40:40,847	5218	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+DEBUG	2021-08-17 12:40:40,847	5218	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+INFO	2021-08-17 12:42:32,024	0	Base.Login	[main]	hi started
+INFO	2021-08-17 12:42:32,028	4	Base.Login	[main]	started
+DEBUG	2021-08-17 12:42:36,949	4925	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:42:36,951	4927	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+DEBUG	2021-08-17 12:42:36,952	4928	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("index.ftl"): Found
+DEBUG	2021-08-17 12:42:36,952	4928	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+DEBUG	2021-08-17 12:42:37,141	5117	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:42:37,144	5120	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+DEBUG	2021-08-17 12:42:37,147	5123	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("head.ftl"): Found
+DEBUG	2021-08-17 12:42:37,149	5125	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+DEBUG	2021-08-17 12:42:37,163	5139	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:42:37,165	5141	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+DEBUG	2021-08-17 12:42:37,166	5142	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("nav.ftl"): Found
+DEBUG	2021-08-17 12:42:37,167	5143	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+DEBUG	2021-08-17 12:42:37,224	5200	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:42:37,235	5211	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:42:37,241	5217	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+DEBUG	2021-08-17 12:42:37,241	5217	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+DEBUG	2021-08-17 12:42:37,268	5244	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:42:37,269	5245	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+DEBUG	2021-08-17 12:42:37,269	5245	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+DEBUG	2021-08-17 12:42:37,269	5245	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+DEBUG	2021-08-17 12:42:37,299	5275	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:42:37,299	5275	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+DEBUG	2021-08-17 12:42:37,300	5276	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+DEBUG	2021-08-17 12:42:37,300	5276	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+DEBUG	2021-08-17 12:42:37,331	5307	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:42:37,333	5309	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:42:37,333	5309	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+DEBUG	2021-08-17 12:42:37,333	5309	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+DEBUG	2021-08-17 12:42:37,339	5315	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:42:37,340	5316	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:42:37,340	5316	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+DEBUG	2021-08-17 12:42:37,341	5317	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+DEBUG	2021-08-17 12:42:37,348	5324	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:42:37,350	5326	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:42:37,351	5327	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+DEBUG	2021-08-17 12:42:37,351	5327	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+DEBUG	2021-08-17 12:42:37,356	5332	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:42:37,357	5333	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:42:37,358	5334	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+DEBUG	2021-08-17 12:42:37,359	5335	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+DEBUG	2021-08-17 12:42:37,366	5342	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:42:37,366	5342	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:42:37,367	5343	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+DEBUG	2021-08-17 12:42:37,367	5343	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+INFO	2021-08-17 12:58:36,077	0	Base.Login	[main]	hi started
+INFO	2021-08-17 12:58:36,080	3	Base.Login	[main]	started
+DEBUG	2021-08-17 12:58:41,400	5323	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:58:41,402	5325	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+DEBUG	2021-08-17 12:58:41,404	5327	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("index.ftl"): Found
+DEBUG	2021-08-17 12:58:41,404	5327	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+DEBUG	2021-08-17 12:58:41,604	5527	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:58:41,607	5530	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+DEBUG	2021-08-17 12:58:41,609	5532	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("head.ftl"): Found
+DEBUG	2021-08-17 12:58:41,611	5534	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+DEBUG	2021-08-17 12:58:41,622	5545	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:58:41,624	5547	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+DEBUG	2021-08-17 12:58:41,625	5548	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("nav.ftl"): Found
+DEBUG	2021-08-17 12:58:41,626	5549	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+DEBUG	2021-08-17 12:58:41,644	5567	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:58:41,644	5567	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:58:41,646	5569	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+DEBUG	2021-08-17 12:58:41,647	5570	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+DEBUG	2021-08-17 12:58:41,658	5581	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:58:41,658	5581	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+DEBUG	2021-08-17 12:58:41,659	5582	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+DEBUG	2021-08-17 12:58:41,659	5582	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+DEBUG	2021-08-17 12:58:41,682	5605	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:58:41,683	5606	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+DEBUG	2021-08-17 12:58:41,683	5606	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+DEBUG	2021-08-17 12:58:41,683	5606	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+DEBUG	2021-08-17 12:58:41,718	5641	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:58:41,720	5643	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:58:41,721	5644	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+DEBUG	2021-08-17 12:58:41,721	5644	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+DEBUG	2021-08-17 12:58:41,732	5655	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:58:41,734	5657	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:58:41,734	5657	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+DEBUG	2021-08-17 12:58:41,735	5658	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+DEBUG	2021-08-17 12:58:41,739	5662	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:58:41,740	5663	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:58:41,741	5664	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+DEBUG	2021-08-17 12:58:41,742	5665	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+DEBUG	2021-08-17 12:58:41,747	5670	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:58:41,748	5671	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:58:41,749	5672	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+DEBUG	2021-08-17 12:58:41,749	5672	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+DEBUG	2021-08-17 12:58:41,756	5679	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 12:58:41,766	5689	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+DEBUG	2021-08-17 12:58:41,768	5691	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+DEBUG	2021-08-17 12:58:41,768	5691	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+INFO	2021-08-17 13:00:25,337	0	Base.Login	[main]	hi started
+INFO	2021-08-17 13:00:25,341	4	Base.Login	[main]	started
+DEBUG	2021-08-17 13:00:30,115	4778	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:00:30,117	4780	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+DEBUG	2021-08-17 13:00:30,119	4782	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("index.ftl"): Found
+DEBUG	2021-08-17 13:00:30,119	4782	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+DEBUG	2021-08-17 13:00:30,314	4977	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:00:30,317	4980	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+DEBUG	2021-08-17 13:00:30,320	4983	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("head.ftl"): Found
+DEBUG	2021-08-17 13:00:30,321	4984	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+DEBUG	2021-08-17 13:00:30,335	4998	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:00:30,336	4999	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+DEBUG	2021-08-17 13:00:30,338	5001	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("nav.ftl"): Found
+DEBUG	2021-08-17 13:00:30,338	5001	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+DEBUG	2021-08-17 13:00:30,360	5023	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:00:30,361	5024	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+DEBUG	2021-08-17 13:00:30,362	5025	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+DEBUG	2021-08-17 13:00:30,362	5025	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+DEBUG	2021-08-17 13:00:30,373	5036	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:00:30,374	5037	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+DEBUG	2021-08-17 13:00:30,374	5037	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+DEBUG	2021-08-17 13:00:30,374	5037	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+DEBUG	2021-08-17 13:00:30,476	5139	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:00:30,479	5142	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+DEBUG	2021-08-17 13:00:30,481	5144	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+DEBUG	2021-08-17 13:00:30,481	5144	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+DEBUG	2021-08-17 13:00:30,525	5188	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:00:30,528	5191	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+DEBUG	2021-08-17 13:00:30,529	5192	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+DEBUG	2021-08-17 13:00:30,529	5192	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+DEBUG	2021-08-17 13:00:30,534	5197	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:00:30,535	5198	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+DEBUG	2021-08-17 13:00:30,536	5199	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+DEBUG	2021-08-17 13:00:30,536	5199	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+DEBUG	2021-08-17 13:00:30,545	5208	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:00:30,547	5210	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+DEBUG	2021-08-17 13:00:30,548	5211	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+DEBUG	2021-08-17 13:00:30,548	5211	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+DEBUG	2021-08-17 13:00:30,552	5215	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:00:30,553	5216	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+DEBUG	2021-08-17 13:00:30,554	5217	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+DEBUG	2021-08-17 13:00:30,555	5218	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+DEBUG	2021-08-17 13:00:30,564	5227	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:00:30,565	5228	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+DEBUG	2021-08-17 13:00:30,566	5229	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+DEBUG	2021-08-17 13:00:30,566	5229	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+INFO	2021-08-17 13:01:44,566	0	Base.Login	[main]	hi started
+INFO	2021-08-17 13:01:44,582	16	Base.Login	[main]	started
+DEBUG	2021-08-17 13:01:49,718	5152	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:01:49,720	5154	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+DEBUG	2021-08-17 13:01:49,722	5156	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("index.ftl"): Found
+DEBUG	2021-08-17 13:01:49,722	5156	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+DEBUG	2021-08-17 13:01:49,953	5387	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:01:49,959	5393	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+DEBUG	2021-08-17 13:01:49,965	5399	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("head.ftl"): Found
+DEBUG	2021-08-17 13:01:49,967	5401	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+DEBUG	2021-08-17 13:01:49,988	5422	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:01:49,990	5424	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+DEBUG	2021-08-17 13:01:49,993	5427	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("nav.ftl"): Found
+DEBUG	2021-08-17 13:01:49,993	5427	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+DEBUG	2021-08-17 13:01:50,028	5462	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:01:50,028	5462	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+DEBUG	2021-08-17 13:01:50,030	5464	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+DEBUG	2021-08-17 13:01:50,030	5464	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+DEBUG	2021-08-17 13:01:50,045	5479	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:01:50,046	5480	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+DEBUG	2021-08-17 13:01:50,046	5480	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+DEBUG	2021-08-17 13:01:50,046	5480	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+DEBUG	2021-08-17 13:01:50,164	5598	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:01:50,168	5602	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+DEBUG	2021-08-17 13:01:50,170	5604	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+DEBUG	2021-08-17 13:01:50,170	5604	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+DEBUG	2021-08-17 13:01:50,214	5648	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:01:50,216	5650	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+DEBUG	2021-08-17 13:01:50,217	5651	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+DEBUG	2021-08-17 13:01:50,217	5651	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+DEBUG	2021-08-17 13:01:50,229	5663	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:01:50,231	5665	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+DEBUG	2021-08-17 13:01:50,232	5666	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+DEBUG	2021-08-17 13:01:50,233	5667	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+DEBUG	2021-08-17 13:01:50,240	5674	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:01:50,241	5675	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+DEBUG	2021-08-17 13:01:50,247	5681	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+DEBUG	2021-08-17 13:01:50,248	5682	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+DEBUG	2021-08-17 13:01:50,253	5687	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:01:50,253	5687	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+DEBUG	2021-08-17 13:01:50,254	5688	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+DEBUG	2021-08-17 13:01:50,254	5688	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+DEBUG	2021-08-17 13:01:50,263	5697	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+DEBUG	2021-08-17 13:01:50,263	5697	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+DEBUG	2021-08-17 13:01:50,264	5698	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+DEBUG	2021-08-17 13:01:50,264	5698	freemarker.log._Log4jLoggerFactory$Log4jLogger	[main]	Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

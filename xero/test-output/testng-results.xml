@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[This the report which will report in test out /index.html ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-08-17T13:01:39 PDT" name="Default suite" finished-at="2021-08-17T13:01:50 PDT" duration-ms="10816">
+    <groups>
+    </groups>
+    <test started-at="2021-08-17T13:01:39 PDT" name="Default test" finished-at="2021-08-17T13:01:50 PDT" duration-ms="10816">
+      <class name="Base.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Base.Login@63a65a25]" started-at="2021-08-17T13:01:39 PDT" name="setup" finished-at="2021-08-17T13:01:39 PDT" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:0, instance:Base.Login@63a65a25]" started-at="2021-08-17T13:01:39 PDT" name="test1" finished-at="2021-08-17T13:01:50 PDT" duration-ms="10557" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This the report which will report in test out /index.html ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- Base.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

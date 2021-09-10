@@ -97,6 +97,7 @@ public class StackQueueLinkedList {
         ll.remove(3);
         ll.removeFirst();
         ll.removeLast();
+        ll.set(1, "For"); //set methood for changing an element
   
         System.out.println(ll);
     }

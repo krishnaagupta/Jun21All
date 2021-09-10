@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All test cases]" guice-stage="DEVELOPMENT">
+  <parameter name="BrowserName" value="chrome"/>
+  <listeners>
+    <listener class-name="common.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Base.Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1"/>
+          <include name="CreateReport"/>
+        </methods>
+      </class> <!-- Base.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [All test cases] -->

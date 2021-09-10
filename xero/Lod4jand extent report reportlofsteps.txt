@@ -1,0 +1,102 @@
+extent report
+
+1. get the dependency and sdd in the pom and update maven project
+2.public static ExtentReports reports ;
+	public static  ExtentTest logger;
+	public static ExtentHtmlReporter htmlReporter=null;
+	public static String  sReportTime;
+	public static WebDriver driver=null;
+	public static ExtentReports extent=null; 
+	
+	
+	
+	public static void initilizeReports() {// extent report step 1
+
+		sReportTime=new SimpleDateFormat("yyyymmddhhmm").format(new Date());
+		extent=new ExtentReports();
+		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"/reports"+sReportTime+".html");
+		extent.attachReporter(htmlReporter);
+
+	}
+	@BeforeTest
+	public void setup() {
+		initilizeReports();
+	}
+	
+	this above code for initialising the report and call it before test(the set up or initilazing has to be done in before test and not in listener class as the listener class starts from ON TESTSTart,no meth
+	ood in listeners for before start)
+	
+	3. ExtentTest test= extent.createTest("Test1","login test");-- create a test 
+	4 do Test.info("any infomation for logs")
+	5.test.addScreenCaptureFromPath(Utils.getScreenShot());--> addding scrren shots .. make the get screen shot methoos return a string  path
+	
+	5.extent .flush() --to flush the reports 
+	
+	
+	
+	LOG4J
+	Printing messages to the console is an integral part of the development testing and the debugging of a Java program.
+	 If developers are working on a Server 
+	side application, where they cannot see what’s going on inside the server, then their only visibility tool is a log file.
+
+Without logs, developers cannot do any debugging or see what’s going on inside the application. Java has pretty handy 
+System.out.println() methods to print something on the console, which can also be routed to a log file but it is not
+ sufficient for a real-world Java application.
+
+If developers are running a Java program in Linux or Unix based systems, Log4j or SLF4j or any other logging framework 
+offers a lot more features, flexibility, and improvement on message quality, which is not possible using the System.out.println() statements.
+	
+	
+	log 4j has 3 things 
+	
+	1.logger:
+	
+	Log Levels – These are the methods that will be used to print the log messages. There are primarily only a few log levels that are used in a script.
+ALL – This level will prioritize and include everything in the logs.
+ERROR – This level will show messages that inform users about error events that may not stop the application.
+WARN – This level will show information regarding warnings, that may not stop the execution but may still cause problems.
+DEBUG – This level will log debugging information.
+INFO – This level will log the progress of the application.
+FATAL – This will print information critical to the system that may even crash the application.
+	
+	
+	2. Appender
+	The appender basically grabs information from the logger and writes log messages to a file or any other storage location. The following are some of the appenders one can use for Log4j:
+
+FileAppender – This will append the log messages to a file.
+RollingFileAppender – It will perform the same function as FileAppender, but users will be able to specify the maximum file size. Once the limit is exceeded, the appender will create another file to write the messages.
+DailyRollingFileAppender – It specifies the frequency by which the messages are to be written to the file.
+ConsoleAppender – In this, the appender will simply write the log messages in the console.
+	
+	
+	3.Layout
+	Pattern Layout – The user must specify a conversion pattern based on which the logs will be displayed. Otherwise, it takes the default conversion pattern in case of “no pattern specified”.
+HTML Layout – In this layout, the format of logs will be in the form of an HTML table.
+XML Layout – This will show the logs in an XML format.
+
+Lay out incliues the look and feel and spacing ..check the below website for details
+
+https://examples.javacodegeeks.com/enterprise-java/log4j/log4j-conversion-pattern-example/
+	
+	1. add the dependence in POM of maven
+	2. create a resources folder in project and add a property file   teslling the details about the looging. IN properity file specify the o/p file .. as in line below
+	log4j.appender.fout.File=crawl.log
+	
+	
+	3.in code 
+	
+	WebDriverManager.chromedriver().setup();
+		Logger log= Logger.getLogger("Login");
+		
+
+		log4jproperities();
+		log.info("hi started");--> to long info .. like wiese you can customize to log errors
+		log.info("started");
+	
+	public static void log4jproperities() throws IOException {--> loading  the property file and reading it
+		Properties prop= new Properties();
+		FileInputStream fileln= new FileInputStream(System.getProperty("user.dir")+"/resources/log4j.properities");
+		prop.load(fileln);
+		PropertyConfigurator.configure(prop);--> part of log 4j
+	}
+	
