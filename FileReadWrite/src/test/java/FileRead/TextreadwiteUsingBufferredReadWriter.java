@@ -45,9 +45,9 @@ public class TextreadwiteUsingBufferredReadWriter {
 			//String sline =" hariom";
 			System.out.println("Enter a data for file");
 			
-			System.out.println(sline);
+			//System.out.println(sline);
 			//oFw.write(sline);	
-			oFile.write(sline);
+			//oFile.write(sline);
 		
 			oFile.close();
 		} 

@@ -12,6 +12,7 @@ public class Q16CharacterRemoval {
 		System.out.println("Enter the character to be removed");
 		char ch=input.next().charAt(0);
 		String output="";
+	
 		for (int i=0;i<inputstr.length();i++) {
 			if (inputstr.charAt(i)!=ch) {
 				output=output+inputstr.charAt(i);
@@ -21,5 +22,6 @@ public class Q16CharacterRemoval {
 		System.out.println(output);
 		
 	}
+	
 
 }

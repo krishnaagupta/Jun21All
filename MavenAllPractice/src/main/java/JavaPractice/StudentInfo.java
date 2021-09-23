@@ -1,6 +1,6 @@
 package JavaPractice;
 
-import java.io.IOException;
+/*import java.io.IOException;
 
 public class StudentInfo implements Comparable<StudentInfo> {
 	private String name;
@@ -89,4 +89,4 @@ public class StudentInfo implements Comparable<StudentInfo> {
 	public String toString() {
 		return new String ("Name: "+this.getName()+", Age: "+this.getAge());
 	}
-}
+}*/

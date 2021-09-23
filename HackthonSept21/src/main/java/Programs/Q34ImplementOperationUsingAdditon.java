@@ -23,7 +23,7 @@ public class Q34ImplementOperationUsingAdditon {
 		System.out.println("a-b->"+subres);
 
 		int divres =a;
-		if(a>b) {	
+		if(a>=b) {	
 			for(int i=0;i<b;i++) {
 				divres=divres+negative(i);
 

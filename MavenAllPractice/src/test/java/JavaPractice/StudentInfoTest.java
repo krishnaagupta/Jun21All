@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 public class StudentInfoTest {
 
-
+/*
 	@Test 
 	public void testStudentInfo() {
 		testHelper("Vivaan",6);	
@@ -22,9 +22,9 @@ public class StudentInfoTest {
 	@Test 
 	public void testStudentInfo1() {
 		testHelper("Vivaan",8);
-	}
+	}*/
 	
-	public void testHelper(String name, int age) {
+/*	public void testHelper(String name, int age) {
 		StudentInfo s1=null;
 		try {
 			s1=new StudentInfo(name, age); 	 
@@ -91,6 +91,6 @@ public class StudentInfoTest {
 		for(StudentInfo s :studentSet) {
 			System.out.println("Student details= "+ s);
 		}
-	}
+	}*/
 
 }

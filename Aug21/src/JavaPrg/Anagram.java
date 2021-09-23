@@ -24,6 +24,7 @@ public class Anagram {
 			char ch1=str2.charAt(j);
 			hash2.put(ch1, hash2.getOrDefault(ch1, 0)+1);
 		}
+		System.out.println(hash1+"---"+hash2);
 		if (hash1.equals(hash2)) {
 			System.out.println("The strings are anagram");
 		}

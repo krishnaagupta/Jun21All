@@ -5,8 +5,8 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Stack;
 
-public class StackQueueLinkedList {
-	public static int[] stackops(int numb) {
+//public class StackQueueLinkedList {
+	/*public static int[] stackops(int numb) {
 		Stack <Integer>s1=new Stack();
 
 		while(numb>0) {
@@ -25,8 +25,8 @@ public class StackQueueLinkedList {
 		}
 
 		return a;
-	}
-
+	}*/
+/*
 	public static int[] queueOps(int numb) {
 		Queue<Integer> q1 = new PriorityQueue<>();
 
@@ -56,9 +56,9 @@ public class StackQueueLinkedList {
 			a[i]=q1.remove();
 		}
 		return a;
-	}
+	}*/
 	
-	public static int[] linklistOps(int numb) {
+	/*public static int[] linklistOps(int numb) {
 		LinkedList<Integer> l1 = new LinkedList<>();
 
 		while(numb>0) {
@@ -72,7 +72,7 @@ public class StackQueueLinkedList {
 			a[i]=l1.remove();
 		}
 		return a;
-	}
+	}*/
 	
 	/*
 	 public class Test {
@@ -105,5 +105,5 @@ public class StackQueueLinkedList {
 	 
 	  
 	 */
-	 */
-}
+	
+//}

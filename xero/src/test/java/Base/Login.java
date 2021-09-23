@@ -10,6 +10,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -33,7 +34,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.*;
 
-
+//@Listeners(common.Listeners.class)
 public class Login  {
 
 
@@ -72,6 +73,7 @@ public class Login  {
 	//	extent.flush();
 	//}
 	@Test()
+	
 	public static void test1() throws InterruptedException, IOException
 	{
 

@@ -11,7 +11,7 @@ public class DifferentInput {
 		String str=input.next();
 		for (int i=0;i<str.length();i++ ) {
 			ch=str.charAt(i);
-			System.out.println(ch.isDigit(ch)
+			//System.out.println(ch.isDigit(ch)
 		}
 	}
 
