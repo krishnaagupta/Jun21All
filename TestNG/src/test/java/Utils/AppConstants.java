@@ -12,5 +12,7 @@ public class AppConstants {
 	//public static final String URL_PROPERTYFILE_PATH="/Users/krishnaagupta/eclipse-workspace/repos/Jun21All/TestNG/src/test/java/TestData/application.properties";
 	public static final String  APPLICATION_PROPERITIES="/src/test/java/TestData"+File.separator+"application.properties";
 	public static final String USER_DIR=System.getProperty("user.dir");
+	public static  String EXTENT_HTML_REPORT_PATH1="HtmlReports";
+	//public static  String EXTENT_HTML_REPORT_PATH1=USER_DIR +File.separator+"HtmlReports";
 
 }

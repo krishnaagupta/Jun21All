@@ -12,6 +12,7 @@ public class Listeners extends Utils implements ITestListener{
 // select overiode/implement menthods select that all methods will appear
  This listener class has to be bonded with the our test case like login in this case , this binding happens in textnf.xml file xero suite .xml in our case
   add the listener tag and mention the listener class before mentioning the test class.
+  // Also if you dnt want to bind at testNG.xml level then  another way just before your test class add the @listener ()classname.class
   
  */
 	

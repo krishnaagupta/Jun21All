@@ -27,17 +27,21 @@ public class LoginTestCase extends BaseTest{
 	@BeforeMethod
 	public void beforeTest() throws IOException {
 		driver =getDriver();
+		//test = extent.createTest("Tc1");
 		String url=common.getApplicationproperity("url1");
 		System.out.println("url--"+ url);
 		driver.get(url);
+		
 
 	}
 	
 	
 	@Test
 	public static void tc1login() {
+		//test=extent.createTest("tclogin");
 		System.out.println("hi");
 		log.info("test 1");
 		log.debug("hello");
+		//test.info("tc1");
 	}
 }
