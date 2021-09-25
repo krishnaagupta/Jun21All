@@ -61,11 +61,11 @@ public void logintoSFDC(String username1, String password1) throws InterruptedEx
 	
 	CommonUtils.sendKeys( driver,password ,5,password1);
 	Assert.assertEquals(password.getAttribute("value"), password1);
-	//System.out.println(usernamegettext+"--"+password.getAttribute("value"));
+
 	CommonUtils.clickOn(driver,login, 2);
-	String urluu=driver.getTitle();
-	//Assert.assertEquals(driver.getCurrentUrl(), usernamegettext,);
-	System.out.println(urluu);
+	
+//	Assert.assertEquals(driver.getCurrentUrl(), usernamegettext,);
+//	System.out.println("tittle-->"+urluu);
 
 }
 

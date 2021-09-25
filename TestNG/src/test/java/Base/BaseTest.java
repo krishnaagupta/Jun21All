@@ -34,7 +34,7 @@ public class BaseTest {
 	public static void beforeSuite() {
 
 		DOMConfigurator.configure("/Users/krishnaagupta/eclipse-workspace/repos/Jun21All/TestNG/src/test/java/log4j.xml");
-		log.info("Test end");
+		log.info("Test Start");
 	}
 /*	@BeforeTest
 	public void setup() {
@@ -59,8 +59,8 @@ public class BaseTest {
 	}*/
 	@AfterSuite
 	public  static void afterSuite() {
-		log.info("Test end");
-		//extent.flush();
+		//log.info("Test end");
+		
 	}
 	public WebDriver getDriver() {
 

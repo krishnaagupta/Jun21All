@@ -100,3 +100,94 @@
 2021-09-24 17:00:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
 2021-09-24 17:00:12 DEBUG cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/krishnaagupta/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar!/com/aventstack/extentreports/view/logs-view/testrunner-logs-view.ftl"
 2021-09-24 17:00:12 INFO  BasePage:62 - Test end
+2021-09-24 20:02:10 INFO  BasePage:37 - Test end
+2021-09-24 20:02:26 INFO  BasePage:62 - Test end
+2021-09-24 20:07:28 INFO  BasePage:37 - Test end
+2021-09-24 20:07:37 INFO  BasePage:62 - Test end
+2021-09-24 20:09:17 INFO  BasePage:37 - Test end
+2021-09-24 20:09:34 INFO  BasePage:62 - Test end
+2021-09-24 20:11:10 INFO  BasePage:37 - Test end
+2021-09-24 20:11:23 INFO  BasePage:62 - Test end
+2021-09-24 20:12:24 INFO  BasePage:37 - Test end
+2021-09-24 20:12:34 INFO  LoginTestCase:57 - test 1
+2021-09-24 20:12:34 INFO  BasePage:62 - Test end
+2021-09-24 20:13:51 INFO  BasePage:37 - Test end
+2021-09-24 20:14:01 INFO  LoginTestCase:57 - test 1
+2021-09-24 20:14:02 INFO  BasePage:62 - Test end
+2021-09-24 20:28:59 INFO  BasePage:37 - Test Start
+2021-09-24 20:29:15 INFO  LoginTestCase:54 - before failure
+2021-09-24 20:30:09 INFO  BasePage:37 - Test Start
+2021-09-24 20:30:23 INFO  LoginTestCase:54 - before failure
+2021-09-24 21:54:10 INFO  BasePage:37 - Test Start
+2021-09-24 21:55:37 INFO  BasePage:37 - Test Start
+2021-09-24 21:55:49 INFO  LoginTestCase:65 - test 1
+2021-09-24 22:04:34 INFO  BasePage:37 - Test Start
+2021-09-24 22:04:44 INFO  LoginTestCase:69 - test 1
+2021-09-24 23:51:08 INFO  BasePage:37 - Test Start
+2021-09-24 23:53:32 INFO  BasePage:37 - Test Start
+2021-09-24 23:55:31 INFO  BasePage:37 - Test Start
+2021-09-24 23:55:43 INFO  LoginTestCase:85 - The login is successfull and URl is right 
+2021-09-24 23:59:50 INFO  BasePage:37 - Test Start
+2021-09-25 00:00:03 INFO  LoginTestCase:87 - Error message is correct 
+2021-09-25 10:53:57 INFO  BasePage:37 - Test Start
+2021-09-25 10:54:05 INFO  LoginTestCase:102 - Username Password entered
+2021-09-25 10:54:06 INFO  LoginTestCase:106 - Remember me is checked
+2021-09-25 10:54:07 INFO  LoginTestCase:110 - login clicked
+2021-09-25 10:57:14 INFO  BasePage:37 - Test Start
+2021-09-25 10:57:20 INFO  LoginTestCase:102 - Username Password entered
+2021-09-25 10:57:22 INFO  LoginTestCase:106 - Remember me is checked
+2021-09-25 10:57:23 INFO  LoginTestCase:110 - login clicked
+2021-09-25 10:58:18 INFO  BasePage:37 - Test Start
+2021-09-25 10:58:25 INFO  LoginTestCase:102 - Username Password entered
+2021-09-25 10:58:27 INFO  LoginTestCase:106 - Remember me is checked
+2021-09-25 10:58:27 INFO  LoginTestCase:110 - login clicked
+2021-09-25 11:00:49 INFO  BasePage:37 - Test Start
+2021-09-25 11:00:57 INFO  LoginTestCase:104 - Username Password entered
+2021-09-25 11:00:57 INFO  LoginTestCase:108 - Remember me is checked
+2021-09-25 11:01:00 INFO  LoginTestCase:112 - login clicked
+2021-09-25 11:01:00 INFO  LoginTestCase:118 - The login is successfull and URl is right 
+2021-09-25 11:01:59 INFO  BasePage:37 - Test Start
+2021-09-25 11:02:06 INFO  LoginTestCase:104 - Username Password entered
+2021-09-25 11:02:07 INFO  LoginTestCase:108 - Remember me is checked
+2021-09-25 11:02:09 INFO  LoginTestCase:112 - login clicked
+2021-09-25 11:02:09 INFO  LoginTestCase:118 - The login is successfull and URl is right 
+2021-09-25 11:07:02 INFO  BasePage:37 - Test Start
+2021-09-25 11:07:10 INFO  LoginTestCase:107 - Username Password entered
+2021-09-25 11:07:10 INFO  LoginTestCase:111 - Remember me is checked
+2021-09-25 11:07:13 INFO  LoginTestCase:115 - login clicked
+2021-09-25 11:07:16 INFO  LoginTestCase:121 - The login is successfull and URl is right 
+2021-09-25 11:07:24 INFO  LoginTestCase:131 - logout clicked
+2021-09-25 11:08:14 INFO  BasePage:37 - Test Start
+2021-09-25 11:08:22 INFO  LoginTestCase:107 - Username Password entered
+2021-09-25 11:08:22 INFO  LoginTestCase:111 - Remember me is checked
+2021-09-25 11:08:25 INFO  LoginTestCase:115 - login clicked
+2021-09-25 11:08:25 INFO  LoginTestCase:121 - The login is successfull and URl is right 
+2021-09-25 11:08:30 INFO  LoginTestCase:131 - logout clicked
+2021-09-25 11:09:10 INFO  BasePage:37 - Test Start
+2021-09-25 11:09:17 INFO  LoginTestCase:107 - Username Password entered
+2021-09-25 11:09:18 INFO  LoginTestCase:111 - Remember me is checked
+2021-09-25 11:09:20 INFO  LoginTestCase:115 - login clicked
+2021-09-25 11:09:20 INFO  LoginTestCase:121 - The login is successfull and URl is right 
+2021-09-25 11:09:25 INFO  LoginTestCase:131 - logout clicked
+2021-09-25 11:13:56 INFO  BasePage:37 - Test Start
+2021-09-25 11:14:04 INFO  LoginTestCase:107 - Username Password entered
+2021-09-25 11:14:05 INFO  LoginTestCase:111 - Remember me is checked
+2021-09-25 11:14:08 INFO  LoginTestCase:115 - login clicked
+2021-09-25 11:14:08 INFO  LoginTestCase:121 - The login is successfull and URl is right 
+2021-09-25 11:14:12 INFO  LoginTestCase:132 - logout clicked
+2021-09-25 11:14:15 ERROR LoginTestCase:144 - The login is unsuccessfull and login  URl is not right 
+2021-09-25 11:14:50 INFO  BasePage:37 - Test Start
+2021-09-25 11:14:57 INFO  LoginTestCase:107 - Username Password entered
+2021-09-25 11:14:58 INFO  LoginTestCase:111 - Remember me is checked
+2021-09-25 11:15:00 INFO  LoginTestCase:115 - login clicked
+2021-09-25 11:15:00 INFO  LoginTestCase:121 - The login is successfull and URl is right 
+2021-09-25 11:15:06 INFO  LoginTestCase:132 - logout clicked
+2021-09-25 11:15:09 ERROR LoginTestCase:144 - The login is unsuccessfull and login  URl is not right 
+2021-09-25 11:17:41 INFO  BasePage:37 - Test Start
+2021-09-25 11:17:47 INFO  LoginTestCase:107 - Username Password entered
+2021-09-25 11:17:48 INFO  LoginTestCase:111 - Remember me is checked
+2021-09-25 11:17:50 INFO  LoginTestCase:115 - login clicked
+2021-09-25 11:17:50 INFO  LoginTestCase:121 - The login is successfull and URl is right 
+2021-09-25 11:17:55 INFO  LoginTestCase:132 - logout clicked
+2021-09-25 11:17:57 ERROR LoginTestCase:144 - login  URl is not right 
+2021-09-25 11:17:57 INFO  LoginTestCase:150 - User name displayed and test is pass 
