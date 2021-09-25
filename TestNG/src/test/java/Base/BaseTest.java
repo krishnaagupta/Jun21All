@@ -25,7 +25,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseTest {
 	public static Logger log =Logger.getLogger(BasePage.class);
 
-	private WebDriver driver;
+	public static WebDriver driver;
 	/*public static String  sReportTime;
 	public static ExtentReports extent=null; 
 	public static ExtentHtmlReporter htmlReporter=null;
