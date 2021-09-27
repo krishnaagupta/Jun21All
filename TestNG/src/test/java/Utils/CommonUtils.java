@@ -94,4 +94,6 @@ public class CommonUtils {
 	public static void waiting(WebDriver driver, WebElement element,int timeout) {
 		new WebDriverWait(driver,timeout).until(ExpectedConditions.visibilityOf(element));
 	}
+	
+	
 }

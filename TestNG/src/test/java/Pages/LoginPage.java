@@ -52,6 +52,11 @@ public  WebElement email;
 public  WebElement continueButton;
 
 
+@FindBy(xpath="//input[@id='un']")
+public  WebElement usernameforgotme;
+
+@FindBy(xpath="	//*[@id=\"userNavLabel\"]")
+public  WebElement userNavLabel;
 
 public void logintoSFDC(String username1, String password1) throws InterruptedException, IOException {
 	
@@ -68,6 +73,9 @@ public void logintoSFDC(String username1, String password1) throws InterruptedEx
 //	System.out.println("tittle-->"+urluu);
 
 }
-
+public void logout() {
+	CommonUtils.clickOn(driver,userNavLabel ,3);
+	CommonUtils.clickOn(driver,logOut ,3);
+}
 
 }

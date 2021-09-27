@@ -60,9 +60,6 @@ public class LoginTestCase extends BaseTest{
 		ExtentTestManager.getTest().log(Status.INFO, "login --username,pwd entered");
 		lp.logintoSFDC(username, password);
 
-
-		Assert.assertTrue(driver.getCurrentUrl().contains(common.getApplicationproperity("Salesforce.HomePage")));
-		//ExtentTestManager.getTest().log(Status.INFO, "test passed");
 		if (driver.getCurrentUrl().contains(common.getApplicationproperity("Salesforce.HomePage"))) {
 			ExtentTestManager.getTest().log(Status.INFO, "test passed");
 			log.info("The login is successfull and URl is right ");
@@ -72,6 +69,9 @@ public class LoginTestCase extends BaseTest{
 			log.error("The login is unsuccessfull and URl is not right ");
 
 		}
+		Assert.assertTrue(driver.getCurrentUrl().contains(common.getApplicationproperity("Salesforce.HomePage")));
+		//ExtentTestManager.getTest().log(Status.INFO, "test passed");
+	
 
 	}
 	//@Test
@@ -97,7 +97,7 @@ public class LoginTestCase extends BaseTest{
 	}
 
 	// Test case -3 Test the remember username check box
-	@Test
+	//@Test
 	public  void tc3login() throws InterruptedException, IOException {
 		String username= common.getApplicationproperity("username");
 		String password= common.getApplicationproperity("password");
@@ -105,17 +105,17 @@ public class LoginTestCase extends BaseTest{
 		CommonUtils.sendKeys(driver,lp.password ,5,password);
 		ExtentTestManager.getTest().log(Status.INFO, "login --username,pwd entered");
 		log.info("Username Password entered");
-		
+
 		CommonUtils.clickOn(driver,lp.rememberMe, 2);
 		ExtentTestManager.getTest().log(Status.INFO, "Remember me is checked");
 		log.info("Remember me is checked");
-		
+
 		CommonUtils.clickOn(driver,lp.login, 2);
 		ExtentTestManager.getTest().log(Status.INFO, "login clicked");
 		log.info("login clicked");
 		System.out.println("home page->"+driver.getCurrentUrl());
 		Assert.assertTrue(driver.getCurrentUrl().contains(common.getApplicationproperity("Salesforce.HomePage")));
-	
+
 		if (driver.getCurrentUrl().contains(common.getApplicationproperity("Salesforce.HomePage"))) {
 			ExtentTestManager.getTest().log(Status.INFO, "home page shown");
 			log.info("The login is successfull and URl is right ");
@@ -125,16 +125,13 @@ public class LoginTestCase extends BaseTest{
 			log.error("The login is unsuccessfull and URl is not right ");
 
 		}
-		
+
 		CommonUtils.clickOn(driver,hp.usernavi, 5);
 		CommonUtils.clickOn(driver,hp.logOut, 5);
 		ExtentTestManager.getTest().log(Status.INFO, "logout clicked");
 		log.info("logout clicked");
 		Thread.sleep(2000);
-		
-		// Assert the login page and user name
-		Assert.assertTrue(driver.getCurrentUrl().contains(common.getApplicationproperity("Salesforce.HomePage")));
-		
+
 		if (driver.getCurrentUrl().contains(common.getApplicationproperity("url"))) {
 			ExtentTestManager.getTest().log(Status.INFO, "login page displayed");
 			log.info("  log in URl is right ");
@@ -144,6 +141,9 @@ public class LoginTestCase extends BaseTest{
 			log.error("login  URl is not right ");
 
 		}
+		// Assert the login page and user name
+		Assert.assertTrue(driver.getCurrentUrl().contains(common.getApplicationproperity("Salesforce.HomePage")));
+
 		Assert.assertEquals(lp.userName.getAttribute("value"), username);
 		if (lp.userName.getAttribute("value").equals(username)) {
 			ExtentTestManager.getTest().log(Status.INFO, "User name displayed and test is pass");
@@ -154,8 +154,72 @@ public class LoginTestCase extends BaseTest{
 			log.error("User name is not displayed and test is fail ");
 
 		}
+	}
+//@Test
+	// test case 4a-Forgot Password- 4 A
+	public  void tc4alogin() throws InterruptedException, IOException {
+		CommonUtils.clickOn(driver,lp.forgotPassword, 2);
+		ExtentTestManager.getTest().log(Status.INFO, "Forgot password clicked");
+		log.info("Forgot password clicked ");
+		//assert forgot password page
+		//System.out.println("forgot pwd ->"+driver.getTitle());
+		Assert.assertTrue(driver.getTitle().equals(common.getApplicationproperity("forgotpassword.page")));
+
+		if (driver.getTitle().equals(common.getApplicationproperity("forgotpassword.page"))) {
+			ExtentTestManager.getTest().log(Status.INFO, "forgot password page is displayed");
+			log.info(" forgot password page is displayed ");
+		}
+		else {
+			ExtentTestManager.getTest().log(Status.FAIL, "forgot password page is not  displayed");
+			log.error("forgot password page is not  displayed ");
+
+		}
+		
+		String username= common.getApplicationproperity("username");
+		System.out.println("user name"+username);
+		CommonUtils.sendKeys(driver,lp.email ,7,username);
+		ExtentTestManager.getTest().log(Status.INFO, "login --username,entered");
+		log.info("Username  entered");
+		
+		
+		CommonUtils.clickOn(driver,lp.continueButton, 2);
+		ExtentTestManager.getTest().log(Status.INFO, "continueButton clicked");
+		log.info("continueButton clicked");
+		
+		if (driver.getCurrentUrl().contains(common.getApplicationproperity("email.page"))) {
+			ExtentTestManager.getTest().log(Status.INFO, "Email sent");
+			log.info("  email sent ");
+		}
+		else {
+			ExtentTestManager.getTest().log(Status.FAIL, "email not sent");
+			log.error("email not sent ");
+
+		}
+		// Assert the login page and user name
+		Assert.assertTrue(driver.getTitle().contains(common.getApplicationproperity("email.page")));
 
 	}
+	
+	// tc-4b Forgot Password- 4 B
+	//@Test
+	public  void tc4blogin() throws InterruptedException, IOException {
+		String username= common.getApplicationproperity("wrongUser");
+		String password= common.getApplicationproperity("wrongpwd");
+		CommonUtils.sendKeys(driver,lp.userName ,5,username);
+		CommonUtils.sendKeys(driver,lp.password ,5,password);
+		ExtentTestManager.getTest().log(Status.INFO, "login --wrong username, wrong pwd entered");
+		log.info(" wrong Username Password entered");
 
 
+		CommonUtils.clickOn(driver,lp.login, 2);
+		ExtentTestManager.getTest().log(Status.INFO, "login clicked");
+		log.info("login clicked");
+		
+		String errorMsg=lp.errorMsg.getText();
+		System.out.println("error--."+errorMsg);
+		Assert.assertEquals(errorMsg, common.getApplicationproperity("errormsgtxt"));
+		
+		
+	}
+	
 }

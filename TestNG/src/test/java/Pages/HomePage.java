@@ -38,6 +38,11 @@ public class HomePage extends BasePage {
 	public  WebElement downloadLoginlink;
 	
 	
+	@FindBy(xpath="	//*[@id=\"userNavLabel\"]")
+	public  WebElement userNavLabel;
+
+	
+	
 	// display layout
 	@FindBy(xpath="//*[@id=\"DisplayAndLayout\"]/a")
 	public  WebElement displaylayout;
@@ -59,6 +64,9 @@ public class HomePage extends BasePage {
 	
 	@FindBy(xpath="//*[@id=\"bottomButtonRow\"]/input[1]")
 	public  WebElement HitSave;
+	
+	@FindBy(xpath="//*[@id=\"p4\"]")
+	public  WebElement customization;
 	
 	//Email set up
 	
