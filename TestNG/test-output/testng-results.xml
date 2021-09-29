@@ -1,33 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-25T11:17:41 PDT" name="Default suite" finished-at="2021-09-25T11:17:57 PDT" duration-ms="16733">
+  <suite started-at="2021-09-29T09:40:53 PDT" name="Default suite" finished-at="2021-09-29T09:41:52 PDT" duration-ms="58644">
     <groups>
     </groups>
-    <test started-at="2021-09-25T11:17:41 PDT" name="Default test" finished-at="2021-09-25T11:17:57 PDT" duration-ms="16733">
-      <class name="TestCases.LoginTestCase">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestCases.LoginTestCase@130d63be]" started-at="2021-09-25T11:17:41 PDT" name="beforeSuite" finished-at="2021-09-25T11:17:41 PDT" duration-ms="34" status="PASS">
+    <test started-at="2021-09-29T09:40:53 PDT" name="Default test" finished-at="2021-09-29T09:41:52 PDT" duration-ms="58644">
+      <class name="TestCases.Home">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestCases.Home@293a5bf6]" started-at="2021-09-29T09:40:53 PDT" name="beforeSuite" finished-at="2021-09-29T09:40:53 PDT" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestCases.LoginTestCase@130d63be]" started-at="2021-09-25T11:17:41 PDT" name="beforeTest" finished-at="2021-09-25T11:17:46 PDT" duration-ms="5203" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestCases.Home@293a5bf6]" started-at="2021-09-29T09:40:53 PDT" name="beforeTest" finished-at="2021-09-29T09:41:01 PDT" duration-ms="7347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="tc3login()[pri:0, instance:TestCases.LoginTestCase@130d63be]" started-at="2021-09-25T11:17:46 PDT" name="tc3login" finished-at="2021-09-25T11:17:57 PDT" duration-ms="11375" status="PASS">
+        <test-method signature="tc6()[pri:0, instance:TestCases.Home@293a5bf6]" started-at="2021-09-29T09:41:01 PDT" name="tc6" finished-at="2021-09-29T09:41:52 PDT" duration-ms="51210" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchFrameException">
+            <message>
+              <![CDATA[No frame element found by name or id contactInfoContentId
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Krishnaas-MacBook-Air-2.local', ip: '2601:647:4100:6f90:0:0:0:d7db%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchFrameException: No frame element found by name or id contactInfoContentId
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Krishnaas-MacBook-Air-2.local', ip: '2601:647:4100:6f90:0:0:0:d7db%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '13.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
+at TestCases.Home.tc6(Home.java:325)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchFrameException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc3login -->
-        <test-method is-config="true" signature="CloseReport()[pri:0, instance:TestCases.LoginTestCase@130d63be]" started-at="2021-09-25T11:17:57 PDT" name="CloseReport" finished-at="2021-09-25T11:17:57 PDT" duration-ms="116" status="PASS">
+        </test-method> <!-- tc6 -->
+        <test-method is-config="true" signature="CloseReport()[pri:0, instance:TestCases.Home@293a5bf6]" started-at="2021-09-29T09:41:52 PDT" name="CloseReport" finished-at="2021-09-29T09:41:52 PDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseReport -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestCases.LoginTestCase@130d63be]" started-at="2021-09-25T11:17:58 PDT" name="afterSuite" finished-at="2021-09-25T11:17:58 PDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestCases.Home@293a5bf6]" started-at="2021-09-29T09:41:52 PDT" name="afterSuite" finished-at="2021-09-29T09:41:52 PDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- TestCases.LoginTestCase -->
+      </class> <!-- TestCases.Home -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
