@@ -68,6 +68,10 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//*[@id=\"p4\"]")
 	public  WebElement customization;
 	
+	@FindBy(xpath="//*[@id=\"duel_select_1\"]/option")
+	public  WebElement selectedTabs;
+	
+	
 	//Email set up
 	
 	@FindBy(xpath="//*[@id=\"EmailSetup\"]/a")
@@ -87,6 +91,10 @@ public class HomePage extends BasePage {
 	
 	@FindBy(xpath="//*[@id=\"bottomButtonRow\"]/input[1]")
 	public  WebElement saveButton;
+	
+	@FindBy(xpath="//*[@id=\"meSaveCompleteMessage\"]/table/tbody/tr/td[2]/div")
+	public  WebElement successmsg;
+	
 	
 	
 	//calender

@@ -2,11 +2,14 @@ package TestCases;
 
 import java.io.IOException;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.server.handler.SwitchToWindow;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
@@ -191,7 +194,7 @@ public class Home extends Base.BaseTest {
 
 	}
 	//tc-7-Select "My settings" option from user menu for <username> drop down// calling tc 5
-	@Test
+	//@Test
 	public  void tc7() throws InterruptedException, IOException {
 		tc5();
 		common.clickOn(driver, hp.setting, 2);
@@ -217,7 +220,7 @@ public class Home extends Base.BaseTest {
 		common.clickOn(driver, hp.displaylayout, 2);
 		common.clickOn(driver, hp.customizeTab, 2);
 		common.clickOn(driver, hp.customization, 2);
-		
+
 		Select select= new Select(hp.customization);
 		select.selectByIndex(8);
 		String text=select.getFirstSelectedOption().getText();
@@ -232,11 +235,106 @@ public class Home extends Base.BaseTest {
 
 		}
 		Assert.assertEquals(text, common.getApplicationproperity("selectoption"));
-		
-		Select select1= new Select(hp.selectReports);
-		select.selectByValue("report");
-		String text1=select.getFirstSelectedOption().getText();
-		System.out.println("val"+ text1);
 
+		//		Select select1= new Select(hp.);
+		//		select.selectByValue("report");
+		//		String text1=select.getFirstSelectedOption().getText();
+		//		System.out.println("val"+ text1);
+		common.clickOn(driver, hp.selectReports, 2);
+		common.clickOn(driver, hp.addReport, 2);
+		ExtentTestManager.getTest().log(Status.INFO, "report option selected");
+		log.info("report option selected");
+
+		//		Select select1= new Select(hp.selectedTabs);
+		//		List<WebElement> arr=select.getOptions();
+		//		for (int i=0;i<arr.size();i++) {
+		//			System.out.println(arr.get(i).getText());
+		////			if (arr.get(i).getText().equals("Reports")) {
+		////				System.out.println("reports added");
+		////				
+		////			}
+		//			else {
+		//				System.out.println("reports  not added");
+		//			}
+		//}
+		//		String text1=select.getFirstSelectedOption().getText();
+		//		System.out.println("val"+ text1);
+		common.clickOn(driver, hp.email, 2);
+		common.clickOn(driver, hp.myEmail, 2);
+		common.sendKeys(driver, hp.emailName, 2,common.getApplicationproperity("name"));
+		common.sendKeys(driver, hp.senderEmail, 2, common.getApplicationproperity("email"));
+		ExtentTestManager.getTest().log(Status.INFO, "Email option selected and enail name and id are added");
+		log.info("Email option selected and enail name and id are added");
+
+		common.clickOn(driver, hp.radioButton, 2);
+		common.clickOn(driver, hp.saveButton, 2);
+		ExtentTestManager.getTest().log(Status.INFO, "save button clicked");
+		log.info("save button clicked");
+		common.waiting(driver, hp.successmsg, 5);
+		String message=hp.successmsg.getText();
+		Assert.assertEquals(message, common.getApplicationproperity("emailsavedmessage"));
+		if (message.equals(common.getApplicationproperity("emailsavedmessage"))){
+			ExtentTestManager.getTest().log(Status.INFO, " email name and id are added are saved successfully");
+			log.info("email name and id are added are saved successfully");
+		}
+		else {
+			ExtentTestManager.getTest().log(Status.INFO, " email name and id are added are  not saved ");
+			log.info("email name and id are added are not saved ");
+		}
+
+	}
+	//Select "My Profile" option from user menu for <username> drop down
+	@Test
+	public  void tc6() throws InterruptedException, IOException {
+		String username= common.getApplicationproperity("username");
+		String password= common.getApplicationproperity("password");
+		ExtentTestManager.getTest().log(Status.INFO, "login --username,pwd entered");
+		lp.logintoSFDC(username, password);
+		if (driver.getCurrentUrl().contains(common.getApplicationproperity("Salesforce.HomePage"))) {
+			ExtentTestManager.getTest().log(Status.INFO, "test passed");
+			log.info("The login is successfull and URl is right ");
+		}
+		else {
+			ExtentTestManager.getTest().log(Status.FAIL, "URL not matching");
+			log.error("The login is unsuccessfull and URl is not right ");
+
+		}
+		Assert.assertTrue(driver.getCurrentUrl().contains(common.getApplicationproperity("Salesforce.HomePage")));
+
+		common.clickOn(driver, hp.usernavi,3);
+		ExtentTestManager.getTest().log(Status.INFO, "User Dropdown clicked");
+		log.info("User Dropdown clicked ");
+		
+		common.clickOn(driver, hp.myprofile, 2);
+		if (driver.getCurrentUrl().contains(common.getApplicationproperity("myprofile"))) {
+			ExtentTestManager.getTest().log(Status.INFO, " Myprofile page displayed");
+			log.info("Myprofile page displayed ");
+		}else {
+			ExtentTestManager.getTest().log(Status.ERROR, " Myprofile page not  displayed test fail");
+			log.error("Myprofile page not  displayed test fail");
+		}
+
+		System.out.println("text-->"+driver.getCurrentUrl());
+		Assert.assertTrue(driver.getCurrentUrl().contains(common.getApplicationproperity("myprofile")));
+		
+		common.clickOn(driver, hp.editbutton, 20);
+		
+		ExtentTestManager.getTest().log(Status.INFO, " Edit button clicked");
+		log.info("Edit button clicked");
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.switchTo().frame("contactInfoContentId");
+//		String parent=driver.getWindowHandle();
+//		String popupwindow=null;
+//		Set<String> handles =driver.getWindowHandles();
+//		Iterator<String>it=handles.iterator();
+//		while(it.hasNext()) {
+//			popupwindow=it.next();
+//		}
+//		System.out.println("parent,popup-"+parent+popupwindow);
+//		driver.switchTo().window(popupwindow);
+		common.clickOn(driver, hp.aboouttab, 5);
+		common.sendKeys(driver, hp.lastname1, 3, "gg");
+		common.clickOn(driver, hp.saveclick, 5);
+		
 	}
 }

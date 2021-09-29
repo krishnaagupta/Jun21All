@@ -377,3 +377,256 @@
 2021-09-26 23:21:21 INFO  BasePage:203 - set up page displayed
 2021-09-26 23:21:21 INFO  BasePage:215 - Personal link login histroy clicked
 2021-09-26 23:21:24 INFO  BasePage:227 - Right option selected
+2021-09-27 17:32:27 INFO  BasePage:37 - Test Start
+2021-09-27 17:33:00 INFO  BasePage:37 - Test Start
+2021-09-27 17:33:16 INFO  BasePage:59 - The login is successfull and URl is right 
+2021-09-27 17:33:18 INFO  BasePage:70 - User Dropdown clicked 
+2021-09-27 17:33:19 INFO  BasePage:59 - The login is successfull and URl is right 
+2021-09-27 17:33:19 ERROR BasePage:89 - DropDown Items Matching 
+2021-09-27 17:33:21 INFO  BasePage:70 - User Dropdown clicked 
+2021-09-27 17:33:22 INFO  BasePage:199 - MySetting displayed
+2021-09-27 17:33:22 INFO  BasePage:203 - set up page displayed
+2021-09-27 17:33:22 ERROR BasePage:89 - DropDown Items Matching 
+2021-09-27 17:33:22 INFO  BasePage:215 - Personal link login histroy clicked
+2021-09-27 17:33:24 INFO  BasePage:199 - MySetting displayed
+2021-09-27 17:33:24 INFO  BasePage:203 - set up page displayed
+2021-09-27 17:33:24 INFO  BasePage:215 - Personal link login histroy clicked
+2021-09-27 17:33:25 INFO  BasePage:227 - Right option selected
+2021-09-27 17:33:27 INFO  BasePage:227 - Right option selected
+2021-09-27 18:13:51 INFO  BasePage:37 - Test Start
+2021-09-27 18:14:06 INFO  BasePage:59 - The login is successfull and URl is right 
+2021-09-27 18:14:07 INFO  BasePage:70 - User Dropdown clicked 
+2021-09-27 18:14:07 ERROR BasePage:89 - DropDown Items Matching 
+2021-09-27 18:14:08 INFO  BasePage:199 - MySetting displayed
+2021-09-27 18:14:08 INFO  BasePage:203 - set up page displayed
+2021-09-27 18:14:11 INFO  BasePage:215 - Personal link login histroy clicked
+2021-09-27 18:14:13 INFO  BasePage:227 - Right option selected
+2021-09-27 18:25:27 INFO  BasePage:37 - Test Start
+2021-09-27 18:25:42 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-27 18:25:43 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-27 18:25:43 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-27 18:25:45 INFO  BasePage:200 - MySetting displayed
+2021-09-27 18:25:45 INFO  BasePage:204 - set up page displayed
+2021-09-27 18:25:46 INFO  BasePage:216 - Personal link login histroy clicked
+2021-09-27 18:25:48 INFO  BasePage:228 - Right option selected
+2021-09-27 18:25:49 INFO  BasePage:244 - report option selected
+2021-09-27 18:26:25 INFO  BasePage:37 - Test Start
+2021-09-27 18:26:39 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-27 18:26:40 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-27 18:26:40 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-27 18:26:42 INFO  BasePage:200 - MySetting displayed
+2021-09-27 18:26:42 INFO  BasePage:204 - set up page displayed
+2021-09-27 18:26:43 INFO  BasePage:216 - Personal link login histroy clicked
+2021-09-27 18:26:45 INFO  BasePage:228 - Right option selected
+2021-09-27 18:26:46 INFO  BasePage:244 - report option selected
+2021-09-27 18:27:43 INFO  BasePage:37 - Test Start
+2021-09-27 18:27:57 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-27 18:27:58 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-27 18:27:58 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-27 18:28:01 INFO  BasePage:200 - MySetting displayed
+2021-09-27 18:28:01 INFO  BasePage:204 - set up page displayed
+2021-09-27 18:28:01 INFO  BasePage:216 - Personal link login histroy clicked
+2021-09-27 18:28:03 INFO  BasePage:228 - Right option selected
+2021-09-27 18:28:04 INFO  BasePage:244 - report option selected
+2021-09-27 18:28:30 INFO  BasePage:37 - Test Start
+2021-09-27 18:28:44 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-27 18:28:45 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-27 18:28:45 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-27 18:28:47 INFO  BasePage:200 - MySetting displayed
+2021-09-27 18:28:47 INFO  BasePage:204 - set up page displayed
+2021-09-27 18:28:49 INFO  BasePage:216 - Personal link login histroy clicked
+2021-09-27 18:28:51 INFO  BasePage:228 - Right option selected
+2021-09-27 18:28:51 INFO  BasePage:244 - report option selected
+2021-09-28 11:10:38 INFO  BasePage:37 - Test Start
+2021-09-28 11:10:55 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-28 11:10:56 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-28 11:10:56 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-28 11:10:58 INFO  BasePage:200 - MySetting displayed
+2021-09-28 11:10:58 INFO  BasePage:204 - set up page displayed
+2021-09-28 11:10:59 INFO  BasePage:216 - Personal link login histroy clicked
+2021-09-28 11:11:02 INFO  BasePage:228 - Right option selected
+2021-09-28 11:11:03 INFO  BasePage:244 - report option selected
+2021-09-28 20:53:43 INFO  BasePage:37 - Test Start
+2021-09-28 20:54:02 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-28 20:54:03 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-28 20:54:03 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-28 20:54:06 INFO  BasePage:200 - MySetting displayed
+2021-09-28 20:54:06 INFO  BasePage:204 - set up page displayed
+2021-09-28 20:54:07 INFO  BasePage:216 - Personal link login histroy clicked
+2021-09-28 20:54:09 INFO  BasePage:228 - Right option selected
+2021-09-28 20:54:09 INFO  BasePage:244 - report option selected
+2021-09-28 21:01:26 INFO  BasePage:37 - Test Start
+2021-09-28 21:01:46 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-28 21:01:46 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-28 21:01:46 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-28 21:01:48 INFO  BasePage:200 - MySetting displayed
+2021-09-28 21:01:48 INFO  BasePage:204 - set up page displayed
+2021-09-28 21:01:49 INFO  BasePage:216 - Personal link login histroy clicked
+2021-09-28 21:15:49 INFO  BasePage:37 - Test Start
+2021-09-28 21:16:05 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-28 21:16:06 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-28 21:16:06 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-28 21:16:09 INFO  BasePage:200 - MySetting displayed
+2021-09-28 21:16:09 INFO  BasePage:204 - set up page displayed
+2021-09-28 21:16:09 INFO  BasePage:216 - Personal link login histroy clicked
+2021-09-28 21:16:13 INFO  BasePage:228 - Right option selected
+2021-09-28 21:16:13 INFO  BasePage:244 - report option selected
+2021-09-28 21:16:14 INFO  BasePage:265 - Email option selected and enail name and id are added
+2021-09-28 21:23:49 INFO  BasePage:37 - Test Start
+2021-09-28 21:24:06 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-28 21:24:07 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-28 21:24:07 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-28 21:24:09 INFO  BasePage:200 - MySetting displayed
+2021-09-28 21:24:09 INFO  BasePage:204 - set up page displayed
+2021-09-28 21:24:10 INFO  BasePage:216 - Personal link login histroy clicked
+2021-09-28 21:24:13 INFO  BasePage:228 - Right option selected
+2021-09-28 21:24:13 INFO  BasePage:244 - report option selected
+2021-09-28 21:24:14 INFO  BasePage:265 - Email option selected and enail name and id are added
+2021-09-28 21:25:34 INFO  BasePage:37 - Test Start
+2021-09-28 21:25:52 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-28 21:25:53 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-28 21:25:53 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-28 21:25:56 INFO  BasePage:200 - MySetting displayed
+2021-09-28 21:25:56 INFO  BasePage:204 - set up page displayed
+2021-09-28 21:25:56 INFO  BasePage:216 - Personal link login histroy clicked
+2021-09-28 21:25:59 INFO  BasePage:228 - Right option selected
+2021-09-28 21:26:00 INFO  BasePage:244 - report option selected
+2021-09-28 21:26:01 INFO  BasePage:265 - Email option selected and enail name and id are added
+2021-09-28 21:38:32 INFO  BasePage:37 - Test Start
+2021-09-28 21:38:49 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-28 21:38:50 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-28 21:38:50 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-28 21:38:52 INFO  BasePage:200 - MySetting displayed
+2021-09-28 21:38:52 INFO  BasePage:204 - set up page displayed
+2021-09-28 21:38:53 INFO  BasePage:216 - Personal link login histroy clicked
+2021-09-28 21:38:56 INFO  BasePage:228 - Right option selected
+2021-09-28 21:38:56 INFO  BasePage:244 - report option selected
+2021-09-28 21:38:57 INFO  BasePage:265 - Email option selected and enail name and id are added
+2021-09-28 21:38:58 INFO  BasePage:270 - save button clicked
+2021-09-28 21:39:36 INFO  BasePage:37 - Test Start
+2021-09-28 21:40:04 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-28 21:40:05 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-28 21:40:06 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-28 21:40:08 INFO  BasePage:200 - MySetting displayed
+2021-09-28 21:40:08 INFO  BasePage:204 - set up page displayed
+2021-09-28 21:40:09 INFO  BasePage:216 - Personal link login histroy clicked
+2021-09-28 21:40:11 INFO  BasePage:228 - Right option selected
+2021-09-28 21:40:11 INFO  BasePage:244 - report option selected
+2021-09-28 21:40:12 INFO  BasePage:265 - Email option selected and enail name and id are added
+2021-09-28 21:40:13 INFO  BasePage:270 - save button clicked
+2021-09-28 21:41:34 INFO  BasePage:37 - Test Start
+2021-09-28 21:41:52 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-28 21:41:52 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-28 21:41:52 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-28 21:41:55 INFO  BasePage:200 - MySetting displayed
+2021-09-28 21:41:55 INFO  BasePage:204 - set up page displayed
+2021-09-28 21:41:57 INFO  BasePage:216 - Personal link login histroy clicked
+2021-09-28 21:42:00 INFO  BasePage:228 - Right option selected
+2021-09-28 21:42:00 INFO  BasePage:244 - report option selected
+2021-09-28 21:42:01 INFO  BasePage:265 - Email option selected and enail name and id are added
+2021-09-28 21:42:02 INFO  BasePage:270 - save button clicked
+2021-09-28 21:42:28 INFO  BasePage:37 - Test Start
+2021-09-28 21:42:44 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-28 21:42:44 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-28 21:42:44 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-28 21:42:47 INFO  BasePage:200 - MySetting displayed
+2021-09-28 21:42:47 INFO  BasePage:204 - set up page displayed
+2021-09-28 21:42:48 INFO  BasePage:216 - Personal link login histroy clicked
+2021-09-28 21:42:51 INFO  BasePage:228 - Right option selected
+2021-09-28 21:42:51 INFO  BasePage:244 - report option selected
+2021-09-28 21:42:52 INFO  BasePage:265 - Email option selected and enail name and id are added
+2021-09-28 21:42:52 INFO  BasePage:270 - save button clicked
+2021-09-28 21:42:52 INFO  BasePage:276 - email name and id are added are saved successfully
+2021-09-28 21:50:40 INFO  BasePage:37 - Test Start
+2021-09-28 21:50:59 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-28 21:51:00 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-28 21:51:00 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-28 21:51:51 INFO  BasePage:37 - Test Start
+2021-09-28 21:51:51 INFO  BasePage:37 - Test Start
+2021-09-28 21:52:08 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-28 21:52:09 INFO  BasePage:60 - The login is successfull and URl is right 
+2021-09-28 21:52:11 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-28 21:52:12 INFO  BasePage:71 - User Dropdown clicked 
+2021-09-28 21:52:12 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-28 21:52:12 ERROR BasePage:90 - DropDown Items Matching 
+2021-09-28 22:08:02 INFO  BasePage:37 - Test Start
+2021-09-28 22:08:19 INFO  BasePage:61 - The login is successfull and URl is right 
+2021-09-28 22:08:19 INFO  BasePage:72 - User Dropdown clicked 
+2021-09-28 22:08:20 ERROR BasePage:96 - DropDown Items not Matching 
+2021-09-29 08:39:53 INFO  BasePage:37 - Test Start
+2021-09-29 08:40:09 INFO  BasePage:61 - The login is successfull and URl is right 
+2021-09-29 08:40:10 INFO  BasePage:72 - User Dropdown clicked 
+2021-09-29 08:40:10 ERROR BasePage:96 - DropDown Items not Matching 
+2021-09-29 08:44:54 INFO  BasePage:37 - Test Start
+2021-09-29 08:45:09 INFO  BasePage:61 - The login is successfull and URl is right 
+2021-09-29 08:45:10 INFO  BasePage:72 - User Dropdown clicked 
+2021-09-29 08:45:10 ERROR BasePage:96 - DropDown Items not Matching 
+2021-09-29 08:48:24 INFO  BasePage:37 - Test Start
+2021-09-29 08:48:40 INFO  BasePage:294 - The login is successfull and URl is right 
+2021-09-29 08:48:40 INFO  BasePage:305 - User Dropdown clicked 
+2021-09-29 08:48:42 ERROR BasePage:313 - Myprofile page not  displayed test fail
+2021-09-29 08:52:26 INFO  BasePage:37 - Test Start
+2021-09-29 08:52:43 INFO  BasePage:294 - The login is successfull and URl is right 
+2021-09-29 08:52:44 INFO  BasePage:305 - User Dropdown clicked 
+2021-09-29 08:52:45 ERROR BasePage:313 - Myprofile page not  displayed test fail
+2021-09-29 08:57:49 INFO  BasePage:37 - Test Start
+2021-09-29 08:58:07 INFO  BasePage:294 - The login is successfull and URl is right 
+2021-09-29 08:58:08 INFO  BasePage:305 - User Dropdown clicked 
+2021-09-29 08:58:09 INFO  BasePage:310 - Myprofile page displayed 
+2021-09-29 08:58:10 INFO  BasePage:321 - Edit button clicked
+2021-09-29 08:59:36 INFO  BasePage:37 - Test Start
+2021-09-29 08:59:55 INFO  BasePage:294 - The login is successfull and URl is right 
+2021-09-29 08:59:56 INFO  BasePage:305 - User Dropdown clicked 
+2021-09-29 08:59:58 INFO  BasePage:310 - Myprofile page displayed 
+2021-09-29 08:59:58 INFO  BasePage:321 - Edit button clicked
+2021-09-29 09:04:38 INFO  BasePage:37 - Test Start
+2021-09-29 09:04:52 INFO  BasePage:294 - The login is successfull and URl is right 
+2021-09-29 09:04:53 INFO  BasePage:305 - User Dropdown clicked 
+2021-09-29 09:04:55 INFO  BasePage:310 - Myprofile page displayed 
+2021-09-29 09:05:47 INFO  BasePage:37 - Test Start
+2021-09-29 09:06:04 INFO  BasePage:294 - The login is successfull and URl is right 
+2021-09-29 09:06:04 INFO  BasePage:305 - User Dropdown clicked 
+2021-09-29 09:06:06 INFO  BasePage:310 - Myprofile page displayed 
+2021-09-29 09:08:10 INFO  BasePage:37 - Test Start
+2021-09-29 09:08:26 INFO  BasePage:294 - The login is successfull and URl is right 
+2021-09-29 09:08:27 INFO  BasePage:305 - User Dropdown clicked 
+2021-09-29 09:08:28 INFO  BasePage:310 - Myprofile page displayed 
+2021-09-29 09:09:46 INFO  BasePage:37 - Test Start
+2021-09-29 09:10:01 INFO  BasePage:294 - The login is successfull and URl is right 
+2021-09-29 09:10:02 INFO  BasePage:305 - User Dropdown clicked 
+2021-09-29 09:10:03 INFO  BasePage:310 - Myprofile page displayed 
+2021-09-29 09:13:24 INFO  BasePage:37 - Test Start
+2021-09-29 09:13:40 INFO  BasePage:294 - The login is successfull and URl is right 
+2021-09-29 09:13:40 INFO  BasePage:305 - User Dropdown clicked 
+2021-09-29 09:13:42 INFO  BasePage:310 - Myprofile page displayed 
+2021-09-29 09:13:42 INFO  BasePage:322 - Edit button clicked
+2021-09-29 09:15:27 INFO  BasePage:37 - Test Start
+2021-09-29 09:15:55 INFO  BasePage:294 - The login is successfull and URl is right 
+2021-09-29 09:15:56 INFO  BasePage:305 - User Dropdown clicked 
+2021-09-29 09:15:57 INFO  BasePage:310 - Myprofile page displayed 
+2021-09-29 09:15:58 INFO  BasePage:322 - Edit button clicked
+2021-09-29 09:23:32 INFO  BasePage:37 - Test Start
+2021-09-29 09:23:49 INFO  BasePage:295 - The login is successfull and URl is right 
+2021-09-29 09:23:50 INFO  BasePage:306 - User Dropdown clicked 
+2021-09-29 09:23:52 INFO  BasePage:311 - Myprofile page displayed 
+2021-09-29 09:23:52 INFO  BasePage:323 - Edit button clicked
+2021-09-29 09:24:57 INFO  BasePage:37 - Test Start
+2021-09-29 09:25:16 INFO  BasePage:295 - The login is successfull and URl is right 
+2021-09-29 09:25:18 INFO  BasePage:306 - User Dropdown clicked 
+2021-09-29 09:25:24 INFO  BasePage:311 - Myprofile page displayed 
+2021-09-29 09:25:25 INFO  BasePage:323 - Edit button clicked
+2021-09-29 09:26:36 INFO  BasePage:37 - Test Start
+2021-09-29 09:26:55 INFO  BasePage:295 - The login is successfull and URl is right 
+2021-09-29 09:26:59 INFO  BasePage:306 - User Dropdown clicked 
+2021-09-29 09:27:02 INFO  BasePage:311 - Myprofile page displayed 
+2021-09-29 09:27:03 INFO  BasePage:323 - Edit button clicked
+2021-09-29 09:32:48 INFO  BasePage:37 - Test Start
+2021-09-29 09:33:06 INFO  BasePage:295 - The login is successfull and URl is right 
+2021-09-29 09:33:06 INFO  BasePage:306 - User Dropdown clicked 
+2021-09-29 09:33:10 INFO  BasePage:311 - Myprofile page displayed 
+2021-09-29 09:33:11 INFO  BasePage:323 - Edit button clicked
+2021-09-29 09:40:53 INFO  BasePage:37 - Test Start
+2021-09-29 09:41:09 INFO  BasePage:295 - The login is successfull and URl is right 
+2021-09-29 09:41:09 INFO  BasePage:306 - User Dropdown clicked 
+2021-09-29 09:41:11 INFO  BasePage:311 - Myprofile page displayed 
+2021-09-29 09:41:12 INFO  BasePage:323 - Edit button clicked

@@ -88,7 +88,7 @@ public class CommonUtils {
 	}
 	public static void clickOn(WebDriver driver, WebElement element,int timeout) {
 		new WebDriverWait(driver,timeout)
-		.until(ExpectedConditions.visibilityOf(element));
+		.until(ExpectedConditions.elementToBeClickable(element));
 		element.click();
 	}
 	public static void waiting(WebDriver driver, WebElement element,int timeout) {

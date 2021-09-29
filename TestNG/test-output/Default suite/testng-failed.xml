@@ -5,8 +5,8 @@
     <classes>
       <class name="TestCases.Home">
         <methods>
-          <include name="tc7"/>
           <include name="beforeTest"/>
+          <include name="tc6"/>
           <include name="afterSuite"/>
           <include name="beforeSuite"/>
           <include name="CloseReport"/>
