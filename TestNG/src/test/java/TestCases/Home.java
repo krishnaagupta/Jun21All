@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.server.handler.SwitchToWindow;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
@@ -284,7 +285,7 @@ public class Home extends Base.BaseTest {
 
 	}
 	//Select "My Profile" option from user menu for <username> drop down
-	@Test
+	//@Test
 	public  void tc6() throws InterruptedException, IOException {
 		String username= common.getApplicationproperity("username");
 		String password= common.getApplicationproperity("password");
@@ -317,24 +318,32 @@ public class Home extends Base.BaseTest {
 		System.out.println("text-->"+driver.getCurrentUrl());
 		Assert.assertTrue(driver.getCurrentUrl().contains(common.getApplicationproperity("myprofile")));
 		
-		common.clickOn(driver, hp.editbutton, 20);
+		/*common.clickOn(driver, hp.editbutton, 20);
 		
 		ExtentTestManager.getTest().log(Status.INFO, " Edit button clicked");
 		log.info("Edit button clicked");
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.switchTo().frame("contactInfoContentId");
-//		String parent=driver.getWindowHandle();
-//		String popupwindow=null;
-//		Set<String> handles =driver.getWindowHandles();
-//		Iterator<String>it=handles.iterator();
-//		while(it.hasNext()) {
-//			popupwindow=it.next();
-//		}
-//		System.out.println("parent,popup-"+parent+popupwindow);
-//		driver.switchTo().window(popupwindow);
+		//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		//driver.switchTo().frame("contactInfoContentId");
+		String parent=driver.getWindowHandle();
+		String popupwindow=null;
+		Set<String> handles =driver.getWindowHandles();
+		Iterator<String>it=handles.iterator();
+		while(it.hasNext()) {
+			popupwindow=it.next();
+		}
+		System.out.println("parent,popup-"+parent+popupwindow);
+		driver.switchTo().window(popupwindow);
 		common.clickOn(driver, hp.aboouttab, 5);
 		common.sendKeys(driver, hp.lastname1, 3, "gg");
-		common.clickOn(driver, hp.saveclick, 5);
+		common.clickOn(driver, hp.saveclick, 5);*/
+		
+		Actions actions = new Actions(driver);
+		actions.moveToElement(hp.photoHavour1).build().perform();
+		common.clickOn(driver, hp.photoHavour1, 5);
+		common.clickOn(driver, hp.PhotoChooseFile, 5);
+		common.sendKeys(driver, hp.PhotoChooseFile, 3, "/Users/krishnaagupta/eclipse-workspace/selenium.png");
 		
 	}
+	
+	
 }

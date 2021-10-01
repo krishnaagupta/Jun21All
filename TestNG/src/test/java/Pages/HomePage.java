@@ -137,9 +137,12 @@ public class HomePage extends BasePage {
 	
 	@FindBy(id="publishersharebutton")
 	public  WebElement shareButton;
-
+	
 
 	//add a photo
+	@FindBy(xpath="/html/body/div[1]/div[2]/table/tbody/tr/td/div/div[2]/div[1]/div/a")
+	public  WebElement photoHavour1;
+	
 	@FindBy(xpath="//*[@id=\"photoSection\"]/span[2]/img[1]")
 	public  WebElement photoHavour;
 	

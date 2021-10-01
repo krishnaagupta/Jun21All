@@ -52,7 +52,7 @@ public class LoginTestCase extends BaseTest{
 	}
 
 	//Login To SalesForce -2 -with valid details
-	//@Test
+	@Test
 	public  void tc2login() throws InterruptedException, IOException {
 
 		String username= common.getApplicationproperity("username");
