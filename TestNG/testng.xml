@@ -9,6 +9,7 @@
  <classes>
    <class name="TestCases.LoginTestCase"/>
    <class name="TestCases.Home"/>
+   <class name="TestCases.CreateAccount"/>
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
