@@ -1,4 +1,4 @@
 TestNG/target
-TestNG/Reports
+TestNG/Reports/*
 TestNG/test-output
 TestNG/demoApplication.log
