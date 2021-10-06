@@ -1,5 +1,7 @@
 package Listeners;
 
+import java.io.IOException;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -9,6 +11,7 @@ import com.aventstack.extentreports.Status;
 import Utils.CommonUtils;
 
 public class TestListen extends CommonUtils implements ITestListener {
+	CommonUtils common1=new CommonUtils();
 	@Override
 	public void onStart(ITestContext context) {
 		System.out.println("*** Test Suite " + context.getName() + " started ***");
@@ -33,7 +36,14 @@ public class TestListen extends CommonUtils implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult result) {
 		System.out.println("*** Test execution " + result.getMethod().getMethodName() + " failed...");
+		System.out.println("code comes here");
 		ExtentTestManager.getTest().log(Status.FAIL, "Test Failed");
+		try {
+			ExtentTestManager.getTest().addScreenCaptureFromPath(common1.takeScreenshot());// to attach the screenshoy
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	@Override
 	public void onTestSkipped(ITestResult result) {

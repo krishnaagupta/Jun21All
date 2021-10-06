@@ -25,6 +25,7 @@ import org.testng.Assert;
 import com.aventstack.extentreports.Status;
 
 import Base.BaseTest;
+import Listeners.ExtentTestManager;
 
 public class CommonUtils {
 	public static Logger log =Logger.getLogger(CommonUtils.class);
@@ -51,14 +52,15 @@ public class CommonUtils {
 
 	}
 
-	public String takeScreenshot() throws IOException {
+	public  String takeScreenshot() throws IOException {
 		TakesScreenshot screenshot = (TakesScreenshot) BaseTest.driver;
 		String addDate = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
-		String destinationPath = System.getProperty("user.dir")+"/HtmlReports/"+addDate + ".PNG";
+		String destinationPath = System.getProperty("user.dir")+"/Reports/"+addDate + ".PNG";
 		File srcfile = screenshot.getScreenshotAs(OutputType.FILE);
 		File dstfile = new File(destinationPath);
 		FileUtils.copyFile(srcfile, dstfile);
 		//        test.addScreenCaptureFromPath(destinationPath);
+		System.out.println("code in screenshot");
 		//        test.fail("Login to homepage failed");
 		return destinationPath;
 	}
@@ -94,6 +96,39 @@ public class CommonUtils {
 	public static void waiting(WebDriver driver, WebElement element,int timeout) {
 		new WebDriverWait(driver,timeout).until(ExpectedConditions.visibilityOf(element));
 	}
+	
+	public static void myassertequal(String str1,String str2, String display1,String display2) {
+		if (str1.equals(str2)) {
+			ExtentTestManager.getTest().log(Status.INFO, display1);
+			log.info(display1);
+			System.out.println("pass");
+		}
+		else {
+			ExtentTestManager.getTest().log(Status.FAIL, display2);
+			log.error(display2);
+			System.out.println("faile");
+
+		}
+		Assert.assertEquals(str1, str2);
+		
+	}	
+	
+	public static void myassertcontains(String str1,String str2, String display1,String display2) {
+		if (str1.contains(str2)) {
+			ExtentTestManager.getTest().log(Status.INFO, display1);
+			log.info(display1);
+			System.out.println("pass");
+		}
+		else {
+			ExtentTestManager.getTest().log(Status.FAIL, display2);
+			log.error(display2);
+			System.out.println("faile");
+
+		}
+		Assert.assertTrue(str1.contains(str2) );
+		
+	}	
+	
 	
 	
 }

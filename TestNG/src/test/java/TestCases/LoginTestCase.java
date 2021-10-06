@@ -52,7 +52,7 @@ public class LoginTestCase extends BaseTest{
 	}
 
 	//Login To SalesForce -2 -with valid details
-	@Test
+	//@Test
 	public  void tc2login() throws InterruptedException, IOException {
 
 		String username= common.getApplicationproperity("username");
@@ -91,16 +91,18 @@ public class LoginTestCase extends BaseTest{
 		}
 		else {
 			ExtentTestManager.getTest().log(Status.FAIL, "Error message is Wrong");
+			
 			log.error("Error message is Wrong ");
 
 		}
 	}
 
 	// Test case -3 Test the remember username check box
-	//@Test
+	@Test
 	public  void tc3login() throws InterruptedException, IOException {
 		String username= common.getApplicationproperity("username");
 		String password= common.getApplicationproperity("password");
+		
 		CommonUtils.sendKeys(driver,lp.userName ,5,username);
 		CommonUtils.sendKeys(driver,lp.password ,5,password);
 		ExtentTestManager.getTest().log(Status.INFO, "login --username,pwd entered");
@@ -122,6 +124,7 @@ public class LoginTestCase extends BaseTest{
 		}
 		else {
 			ExtentTestManager.getTest().log(Status.FAIL, "URL not matching");
+			
 			log.error("The login is unsuccessfull and URl is not right ");
 
 		}

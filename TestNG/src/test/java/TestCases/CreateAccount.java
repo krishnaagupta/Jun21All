@@ -364,7 +364,13 @@ public class CreateAccount extends BaseTest {
 		common.sendKeys(driver, cp.reportName, 3, "3");
 		common.sendKeys(driver, cp.reportUniqueName, 3, "4");
 		common.clickOn(driver, cp.saveandrunBtn, 9);
-		driver.switchTo().window(parentWindowHandle);
+		//driver.switchTo().window(parentWindowHandle);
+		
+		//ExtentTestManager.getTest().addScreenCaptureFromPath(common.takeScreenshot());
+	}
+	@Test
+	public  void tc15() throws InterruptedException, IOException {	
+	
 	}
 	
 }
