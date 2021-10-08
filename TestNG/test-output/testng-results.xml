@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-05T21:54:17 PDT" name="Default suite" finished-at="2021-10-05T21:54:36 PDT" duration-ms="19464">
+  <suite started-at="2021-10-07T16:14:37 PDT" name="Default suite" finished-at="2021-10-07T16:15:01 PDT" duration-ms="24622">
     <groups>
     </groups>
-    <test started-at="2021-10-05T21:54:17 PDT" name="Default test" finished-at="2021-10-05T21:54:36 PDT" duration-ms="19464">
-      <class name="TestCases.Leads">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestCases.Leads@78b66d36]" started-at="2021-10-05T21:54:17 PDT" name="beforeSuite" finished-at="2021-10-05T21:54:17 PDT" duration-ms="123" status="PASS">
+    <test started-at="2021-10-07T16:14:37 PDT" name="Default test" finished-at="2021-10-07T16:15:01 PDT" duration-ms="24622">
+      <class name="TestCases.Contacts">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestCases.Contacts@409bf450]" started-at="2021-10-07T16:14:37 PDT" name="beforeSuite" finished-at="2021-10-07T16:14:37 PDT" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestCases.Leads@78b66d36]" started-at="2021-10-05T21:54:17 PDT" name="beforeTest" finished-at="2021-10-05T21:54:28 PDT" duration-ms="10967" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestCases.Contacts@409bf450]" started-at="2021-10-07T16:14:37 PDT" name="beforeTest" finished-at="2021-10-07T16:14:53 PDT" duration-ms="16321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="tc21()[pri:0, instance:TestCases.Leads@78b66d36]" started-at="2021-10-05T21:54:28 PDT" name="tc21" finished-at="2021-10-05T21:54:36 PDT" duration-ms="8422" status="PASS">
+        <test-method signature="tc30()[pri:0, instance:TestCases.Contacts@409bf450]" started-at="2021-10-07T16:14:53 PDT" name="tc30" finished-at="2021-10-07T16:15:01 PDT" duration-ms="8223" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc21 -->
-        <test-method is-config="true" signature="CloseReport()[pri:0, instance:TestCases.Leads@78b66d36]" started-at="2021-10-05T21:54:36 PDT" name="CloseReport" finished-at="2021-10-05T21:54:36 PDT" duration-ms="1" status="PASS">
+        </test-method> <!-- tc30 -->
+        <test-method is-config="true" signature="CloseReport()[pri:0, instance:TestCases.Contacts@409bf450]" started-at="2021-10-07T16:15:01 PDT" name="CloseReport" finished-at="2021-10-07T16:15:01 PDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseReport -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestCases.Leads@78b66d36]" started-at="2021-10-05T21:54:37 PDT" name="afterSuite" finished-at="2021-10-05T21:54:37 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestCases.Contacts@409bf450]" started-at="2021-10-07T16:15:02 PDT" name="afterSuite" finished-at="2021-10-07T16:15:02 PDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- TestCases.Leads -->
+      </class> <!-- TestCases.Contacts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

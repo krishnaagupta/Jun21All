@@ -1188,3 +1188,194 @@
 2021-10-05 21:54:35 INFO  CommonUtils:103 - Leads Page  displayed
 2021-10-05 21:54:35 INFO  CommonUtils:103 - LeadsDropDown not Verified
 2021-10-05 21:54:36 INFO  CommonUtils:119 - Logged out 
+2021-10-06 08:58:58 INFO  BasePage:37 - Test Start
+2021-10-06 09:13:52 INFO  BasePage:37 - Test Start
+2021-10-06 09:14:13 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 09:15:11 INFO  BasePage:37 - Test Start
+2021-10-06 09:15:32 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 09:15:33 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 09:15:34 INFO  CommonUtils:119 - Logged out 
+2021-10-06 09:21:06 INFO  BasePage:37 - Test Start
+2021-10-06 09:21:33 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 09:21:34 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 09:21:35 INFO  CommonUtils:119 - Logged out 
+2021-10-06 09:22:45 INFO  BasePage:37 - Test Start
+2021-10-06 09:23:03 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 09:23:04 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 09:23:05 INFO  CommonUtils:119 - Logged out 
+2021-10-06 09:23:10 ERROR CommonUtils:124 - could not login
+2021-10-06 09:24:30 INFO  BasePage:37 - Test Start
+2021-10-06 09:24:51 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 09:24:51 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 09:24:52 INFO  CommonUtils:119 - Logged out 
+2021-10-06 09:24:56 INFO  CommonUtils:119 - Logged in again 
+2021-10-06 09:35:17 INFO  BasePage:37 - Test Start
+2021-10-06 09:35:41 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 09:35:42 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 09:35:43 INFO  CommonUtils:119 - Logged out 
+2021-10-06 09:35:48 INFO  CommonUtils:119 - Logged in again 
+2021-10-06 09:36:26 INFO  BasePage:37 - Test Start
+2021-10-06 09:36:44 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 09:36:45 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 09:36:46 INFO  CommonUtils:119 - Logged out 
+2021-10-06 09:36:52 INFO  CommonUtils:119 - Logged in again 
+2021-10-06 09:37:17 INFO  BasePage:37 - Test Start
+2021-10-06 09:37:37 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 09:37:37 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 09:37:38 INFO  CommonUtils:119 - Logged out 
+2021-10-06 09:37:43 INFO  CommonUtils:119 - Logged in again 
+2021-10-06 09:38:32 INFO  BasePage:37 - Test Start
+2021-10-06 09:39:28 INFO  BasePage:37 - Test Start
+2021-10-06 09:39:43 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 09:40:29 INFO  BasePage:37 - Test Start
+2021-10-06 09:40:48 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 09:40:48 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 09:40:49 INFO  CommonUtils:119 - Logged out 
+2021-10-06 09:40:55 INFO  CommonUtils:119 - Logged in again 
+2021-10-06 09:41:06 INFO  BasePage:37 - Test Start
+2021-10-06 09:41:24 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 09:41:24 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 09:41:25 INFO  CommonUtils:119 - Logged out 
+2021-10-06 09:41:29 INFO  CommonUtils:119 - Logged in again 
+2021-10-06 09:42:07 INFO  BasePage:37 - Test Start
+2021-10-06 09:42:24 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 09:42:24 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 09:42:25 INFO  CommonUtils:119 - Logged out 
+2021-10-06 09:42:30 INFO  CommonUtils:119 - Logged in again 
+2021-10-06 09:43:04 INFO  BasePage:37 - Test Start
+2021-10-06 09:43:25 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 09:43:25 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 09:43:26 INFO  CommonUtils:119 - Logged out 
+2021-10-06 09:43:30 INFO  CommonUtils:119 - Logged in again 
+2021-10-06 09:43:50 INFO  BasePage:37 - Test Start
+2021-10-06 10:36:35 INFO  BasePage:37 - Test Start
+2021-10-06 10:36:55 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 10:36:56 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 10:39:30 INFO  BasePage:37 - Test Start
+2021-10-06 10:39:52 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 10:39:52 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 10:39:53 ERROR CommonUtils:124 - Today`s leads page displayed
+2021-10-06 10:40:34 INFO  BasePage:37 - Test Start
+2021-10-06 10:40:54 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 10:40:54 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 10:40:55 ERROR CommonUtils:124 - Today`s leads page displayed
+2021-10-06 10:44:47 INFO  BasePage:37 - Test Start
+2021-10-06 10:45:06 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 10:45:06 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 10:45:08 ERROR CommonUtils:108 - Today`s leads page displayed
+2021-10-06 10:45:57 INFO  BasePage:37 - Test Start
+2021-10-06 10:46:22 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 10:46:23 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 10:46:24 ERROR CommonUtils:108 - Today`s leads page displayed
+2021-10-06 10:50:10 INFO  BasePage:37 - Test Start
+2021-10-06 10:50:30 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 10:50:30 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-06 10:50:31 INFO  CommonUtils:103 - Today`s leads page displayed 
+2021-10-06 10:55:24 INFO  BasePage:37 - Test Start
+2021-10-06 11:05:48 INFO  BasePage:37 - Test Start
+2021-10-06 11:06:06 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 11:06:26 INFO  BasePage:37 - Test Start
+2021-10-06 11:06:45 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 11:09:08 INFO  BasePage:37 - Test Start
+2021-10-06 11:09:29 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 11:09:30 INFO  CommonUtils:103 -  new Leads Page  displayed
+2021-10-06 11:13:25 INFO  BasePage:37 - Test Start
+2021-10-06 11:13:46 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 11:13:47 INFO  CommonUtils:103 -  new Leads Page  displayed
+2021-10-06 11:14:23 INFO  BasePage:37 - Test Start
+2021-10-06 11:14:42 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 11:14:43 INFO  CommonUtils:103 -  new Leads Page  displayed
+2021-10-06 11:16:32 INFO  BasePage:37 - Test Start
+2021-10-06 11:16:51 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 11:16:52 INFO  CommonUtils:103 -  new Leads Page  displayed
+2021-10-06 11:16:55 ERROR CommonUtils:108 -  new leads not saved
+2021-10-06 11:17:50 INFO  BasePage:37 - Test Start
+2021-10-06 11:18:08 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 11:18:09 INFO  CommonUtils:103 -  new Leads Page  displayed
+2021-10-06 11:19:08 INFO  BasePage:37 - Test Start
+2021-10-06 11:19:25 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 11:19:26 INFO  CommonUtils:103 -  new Leads Page  displayed
+2021-10-06 11:19:28 INFO  CommonUtils:119 -  new leads saved
+2021-10-06 11:43:56 INFO  BasePage:37 - Test Start
+2021-10-06 11:44:17 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-06 11:44:23 INFO  CommonUtils:103 -  new Leads Page  displayed
+2021-10-06 11:44:27 INFO  CommonUtils:119 -  new leads saved
+2021-10-06 11:45:32 INFO  BasePage:37 - Test Start
+2021-10-06 11:45:56 INFO  BasePage:37 - Test Start
+2021-10-06 11:59:06 INFO  BasePage:37 - Test Start
+2021-10-06 12:01:28 INFO  BasePage:37 - Test Start
+2021-10-06 12:06:24 INFO  BasePage:37 - Test Start
+2021-10-06 12:11:21 INFO  BasePage:37 - Test Start
+2021-10-06 12:16:52 INFO  BasePage:37 - Test Start
+2021-10-06 12:18:19 INFO  BasePage:37 - Test Start
+2021-10-06 12:23:09 INFO  BasePage:37 - Test Start
+2021-10-06 12:28:05 INFO  BasePage:37 - Test Start
+2021-10-06 12:32:52 INFO  BasePage:37 - Test Start
+2021-10-06 12:33:07 INFO  BasePage:37 - Test Start
+2021-10-06 12:34:10 INFO  BasePage:37 - Test Start
+2021-10-06 12:36:24 INFO  BasePage:37 - Test Start
+2021-10-06 12:36:24 INFO  BasePage:37 - Test Start
+2021-10-06 12:40:16 INFO  BasePage:37 - Test Start
+2021-10-06 12:41:43 INFO  BasePage:37 - Test Start
+2021-10-06 12:44:02 INFO  BasePage:37 - Test Start
+2021-10-06 13:04:55 INFO  BasePage:37 - Test Start
+2021-10-06 13:05:17 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-06 13:05:25 ERROR CommonUtils:108 - Contacts Page not displayed
+2021-10-06 16:58:01 INFO  BasePage:37 - Test Start
+2021-10-06 16:58:27 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-06 17:01:29 INFO  BasePage:37 - Test Start
+2021-10-06 17:01:52 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-06 18:51:52 INFO  BasePage:37 - Test Start
+2021-10-06 18:52:13 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-06 18:57:36 INFO  BasePage:37 - Test Start
+2021-10-06 18:57:56 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-06 18:58:50 INFO  BasePage:37 - Test Start
+2021-10-06 19:02:24 INFO  BasePage:37 - Test Start
+2021-10-06 19:02:45 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-06 19:02:46 ERROR CommonUtils:108 - View Name View Unique not entered correctly
+2021-10-06 19:05:07 INFO  BasePage:37 - Test Start
+2021-10-06 19:05:27 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-06 19:05:28 INFO  CommonUtils:103 - View Name View Unique entered
+2021-10-06 19:08:33 INFO  BasePage:37 - Test Start
+2021-10-06 19:08:55 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-06 19:08:57 INFO  CommonUtils:103 - View Name View Unique entered
+2021-10-06 19:08:57 ERROR CommonUtils:108 - view not created and not saved
+2021-10-06 19:10:10 INFO  BasePage:37 - Test Start
+2021-10-06 19:10:29 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-06 19:10:31 INFO  CommonUtils:103 - View Name View Unique entered
+2021-10-06 19:10:31 INFO  CommonUtils:103 - view created and saved
+2021-10-07 08:54:41 INFO  BasePage:37 - Test Start
+2021-10-07 09:06:40 INFO  BasePage:37 - Test Start
+2021-10-07 09:06:59 INFO  CommonUtils:103 - recently created selected
+2021-10-07 09:09:00 INFO  BasePage:37 - Test Start
+2021-10-07 09:09:21 INFO  CommonUtils:103 - recently created selected
+2021-10-07 09:22:21 INFO  BasePage:37 - Test Start
+2021-10-07 09:22:50 INFO  BasePage:37 - Test Start
+2021-10-07 09:25:34 INFO  BasePage:37 - Test Start
+2021-10-07 09:25:57 INFO  BasePage:37 - Test Start
+2021-10-07 09:26:17 INFO  CommonUtils:103 - recently created selected
+2021-10-07 09:34:33 INFO  BasePage:37 - Test Start
+2021-10-07 09:40:31 INFO  BasePage:37 - Test Start
+2021-10-07 09:40:53 INFO  CommonUtils:103 - My Contacts selected
+2021-10-07 09:47:27 INFO  BasePage:37 - Test Start
+2021-10-07 11:17:57 INFO  BasePage:37 - Test Start
+2021-10-07 11:18:54 INFO  BasePage:37 - Test Start
+2021-10-07 11:19:01 INFO  BasePage:37 - Test Start
+2021-10-07 11:20:42 INFO  BasePage:37 - Test Start
+2021-10-07 11:21:43 INFO  BasePage:37 - Test Start
+2021-10-07 11:22:08 INFO  BasePage:37 - Test Start
+2021-10-07 11:43:03 INFO  BasePage:37 - Test Start
+2021-10-07 11:43:40 INFO  BasePage:37 - Test Start
+2021-10-07 11:45:44 INFO  BasePage:37 - Test Start
+2021-10-07 11:53:17 INFO  BasePage:37 - Test Start
+2021-10-07 11:53:38 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-07 11:53:40 INFO  CommonUtils:103 - Error message displayed
+2021-10-07 11:54:04 INFO  BasePage:37 - Test Start
+2021-10-07 11:54:23 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-07 11:54:25 INFO  CommonUtils:103 - Error message displayed
+2021-10-07 15:50:45 INFO  BasePage:37 - Test Start
+2021-10-07 15:51:08 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-07 15:51:11 INFO  CommonUtils:103 - Error message displayed
+2021-10-07 16:14:37 INFO  BasePage:37 - Test Start
+2021-10-07 16:14:59 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-07 16:15:01 INFO  CommonUtils:103 - Error message displayed

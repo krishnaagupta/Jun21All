@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import junit.framework.Assert;
 
 public class BasePage {
-	WebDriver driver;
+	 public static WebDriver driver;
 	public HashMap<String, By> ObjRep = new HashMap<String, By>();
 	
 	public BasePage(WebDriver driver) {
@@ -51,6 +51,18 @@ public class BasePage {
 		
 	}
 	
+	public String getText(String logicalName) {
+		WebElement element = getWebElement(logicalName);
+		waitforElement (element);
+		return (element.getText());
+		
+	}
+	public String getval(String logicalName) {
+		WebElement element = getWebElement(logicalName);
+		waitforElement (element);
+		return (element.getAttribute("value"));
+		
+	}
 	public void clickRadioButton(String logicalName) {
 		WebElement element = getWebElement(logicalName);
 		clickRadioButton(element);
@@ -77,7 +89,11 @@ public class BasePage {
 		waitForElement(element);
 		element.sendKeys(value);
 	}
-
+//	private String gettextval(WebElement element) {
+//		waitForElement(element);
+//		String val;
+//		return val=element.getAttribute("value");
+//	}
 	
 	private void clickButton(WebElement element) {
 		waitForElement(element);
