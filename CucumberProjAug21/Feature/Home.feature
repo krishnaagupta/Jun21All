@@ -36,16 +36,23 @@ And  User enters value into text box "Password" "august21"
   Scenario: TestCase 5
   	Given "HomePage" is displayed
  	 	Then User click on "usermenu" Button 
-    #Then dropdown "UserNavigation" displayed
+   Then dropdown "UserNavigation" displayed
+   And  User enters the following details
+  |sjj|90|
+  |op|50|
     
+      
 
-  #@tag2
-  #Scenario Outline: Title of your scenario outline
-    #Given I want to write a step with <name>
-    #When I check for the <value> in step
-    #Then I verify the <status> in step
-#
-    #Examples: 
-      #| name  | value | status  |
-      #| name1 |     5 | success |
-      #| name2 |     7 | Fail    |
+    
+#Test Case9
+  @tag1
+  Scenario: TestCase 9
+ 		Given User is on HomePage and goes to "usermenu" clicks "Logout"
+
+# Test Case 8
+@tag1
+ Scenario: TestCase 8
+ 		Given User is on HomePage and goes to "usermenu" clicks "Developerconsole"
+ 		Then Click Close  the developer console
+
+

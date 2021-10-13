@@ -14,7 +14,7 @@ public class HomePage extends BasePage {
 		super(driver =BaseTest.getDriver());
 		//super(driver);
 		addObject("usermenu",By.xpath("	//*[@id=\"userNavLabel\"]"));
-//		addObject("Password",By.xpath("//*[@id=\"password\"]"));
+		
 //		addObject("Login",By.xpath("//*[@id=\"Login\"]"));
 	}	
 }

@@ -26,6 +26,7 @@ public class LoginPage extends BasePage {
 		addObject("Userrememberme",By.xpath("//*[@id=\"idcard-identity\"]"));
 		addObject("continueButton",By.xpath("//*[@id=\"continue\"]"));
 		addObject("usernameforgotme",By.xpath("//*[@id=\"un\"]"));
+		addObject("Developerconsole",By.xpath("//*[@id=\"userNav-menuItems\"]/a[3]"));
 		
 	}
 

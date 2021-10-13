@@ -1,13 +1,16 @@
 package StepDefination;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import Base.BasePage;
 import Base.BaseTest;
 import Pagefactory1.PageFactory;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -76,10 +79,18 @@ public class StepsLogin extends BaseTest {
 
 	
 	@Given("User is on HomePage and goes to {string} clicks {string}")
-	public void user_is_on_home_page_and_goes_to_clicks(String usermenu, String Logout) {
+	public void user_is_on_home_page_and_goes_to_clicks(String usermenu, String option) {
 		page.clickButton(usermenu);
-		page.clickButton(Logout);
+		page.clickButton(option);
 	}
-
+	//stepdefination for sceneriooutline
+	@When("User enters value into text box {string}")
+	public void user_enters_value_into_text_box(String UserName) {
+		
+		page.waitforElement(driver.findElement(By.xpath("//*[@id=\"username\"]")));
+		
+		driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("UserName");
+		System.out.println("user name->"+ UserName);
+	}
 
 }

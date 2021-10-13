@@ -16,10 +16,10 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-#@tag
+
+@tag
 Feature: Login
-  #
-	#testcase 2
+#testcase 2
   @tag1
   Scenario: Valid username and password
     Given User is on "LoginPage"
@@ -37,18 +37,18 @@ Feature: Login
     And  User enters value into text box "Password" ""
     Then User click on "Login" Button
     Then "Error1" to be Displayed
-    #
-    #
+    
+    
     
       #	#TestCase4a
-   @tag2
+  @tag2
 	Scenario: Wrong username and  Wrong password
 	  Given User is on "LoginPage"
 	  When User enters value into text box "Username" "kkg22@tekarch.com"
 	 	Then User click on "forgotPassword" Button
 	 	When User enters value into text box "usernameforgotme" "kkg22@tekarch.com"
 	 	Then User click on "continueButton" Button
-	 	Then link is displayed 
+	 	Then link is displayed
 	 	
           #testcase 4b
     @tag2
@@ -57,11 +57,27 @@ Feature: Login
     When User enters value into text box "Username" "123"
     And  User enters value into text box "Password" "22131"
     Then User click on "Login" Button
-  	Then "Error1" to be Displayed
+  Then "Error1" to be Displayed
    
+   	
+   ##test scenerio outline	
+   	@tag2
+  Scenario Outline: 100
+    Given User is on "LoginPage"
+   	When User enters value into text box "Username" "<Username>"
+  	And  User enters value into text box "Password" "<Password>"
+    Then User click on "Login" Button
+
+    Examples: 
+      | Username  				| 	Password 		| 
+    	| kk 								|     gg				|
+      | hh 								|     7 				|
+      | kkg22@tekarch.com |     august21 	|
+      
+      
    #TestCase3-RememberMe
-   @tag2
-  Scenario: Remember Me
+  @tag2
+ Scenario: Remember Me
     Given User is on "LoginPage"
     When User enters value into text box "Username" "kkg22@tekarch.com"
     And  User enters value into text box "Password" "august21"
@@ -69,10 +85,5 @@ Feature: Login
    	Then User click on "Login" Button
  	 	Given User is on HomePage and goes to "usermenu" clicks "Logout"
  	 	Then "Userrememberme" to be Displayed
-   	
-  #	
-
-   	
-  #	
-  #	
-    
+ 	 	
+      

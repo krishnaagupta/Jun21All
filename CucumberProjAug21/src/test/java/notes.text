@@ -1,0 +1,5 @@
+1. With pace object model with  With page factory - the one used in cucumber import fact is to have 
+
+If the step definition  is in steplogin.java then the path of electricity has to be define in login page.java only then it will work.
+
+With page factory the steps.java and page.java are tightly coupled
