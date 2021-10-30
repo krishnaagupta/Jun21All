@@ -58,7 +58,7 @@ public class CreateOpty extends BaseTest {
 
 	//Select user menu for <username> drop down
 
-	//@Test
+	@Test  (priority=1)
 	public  void tc15() throws InterruptedException, IOException {	
 
 
@@ -92,7 +92,7 @@ public class CreateOpty extends BaseTest {
 		common.myassertequal(text, text2, display1, display2);
 	}
 	
-	//@Test
+	@Test  (priority=2)
 	public  void tc16() throws InterruptedException, IOException {	
 		common.clickOn(driver, co.OpportunityTab, 4);
 		System.out.println("tittle"+ driver.getTitle());
@@ -142,7 +142,7 @@ public class CreateOpty extends BaseTest {
 		
 
 	}
-	//@Test
+	@Test (priority=3)
 	public  void tc17() throws InterruptedException, IOException {	
 		
 		common.clickOn(driver, co.OpportunityTab, 4);
@@ -165,7 +165,7 @@ public class CreateOpty extends BaseTest {
 		
 	}
 	
-	//@Test
+	@Test  (priority=4)
 		public  void tc18() throws InterruptedException, IOException {	
 		
 		common.clickOn(driver, co.OpportunityTab, 4);
@@ -190,7 +190,7 @@ public class CreateOpty extends BaseTest {
 		common.myassertequal(driver.getTitle(), common.getApplicationproperity("stuckoppoturnity"), display1, display2);
 	}
 	
-	@Test
+	@Test (priority=5)
 	public  void tc19() throws InterruptedException, IOException {	
 		common.clickOn(driver, co.OpportunityTab, 4);
 		System.out.println("tittle"+ driver.getTitle());

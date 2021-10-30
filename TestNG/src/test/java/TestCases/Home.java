@@ -47,11 +47,11 @@ public class Home extends Base.BaseTest {
 	}
 	@AfterMethod
 	public void CloseReport() throws InterruptedException {
-		//driver.close();
+		driver.close();
 	}	
 
 	//Select user menu for <username> drop down
-	//@Test
+	@Test (priority=1)
 	public  void tc5() throws InterruptedException, IOException {
 
 		String username= common.getApplicationproperity("username");
@@ -101,7 +101,7 @@ public class Home extends Base.BaseTest {
 		Assert.assertEquals(text, text2);
 	}
 
-	//@Test
+	@Test  (priority=2)
 	// text case 9 --logout Select "Logout" option from user menu for <username> drop down
 	public  void tc9() throws InterruptedException, IOException {
 		String username= common.getApplicationproperity("username");
@@ -138,7 +138,7 @@ public class Home extends Base.BaseTest {
 		}
 		Assert.assertTrue(driver.getCurrentUrl().contains(common.getApplicationproperity("logout.page")));
 	}
-	//@Test
+	@Test  (priority=3)
 	//Select "Developers Console" option from user menu for <username> drop down
 	public  void tc8() throws InterruptedException, IOException {
 		String username= common.getApplicationproperity("username");
@@ -195,7 +195,7 @@ public class Home extends Base.BaseTest {
 
 	}
 	//tc-7-Select "My settings" option from user menu for <username> drop down// calling tc 5
-	//@Test
+	@Test  (priority=4)
 	public  void tc7() throws InterruptedException, IOException {
 		tc5();
 		common.clickOn(driver, hp.setting, 2);
@@ -285,7 +285,7 @@ public class Home extends Base.BaseTest {
 
 	}
 	//Select "My Profile" option from user menu for <username> drop down
-	//@Test
+	@Test (priority=5)
 	public  void tc6() throws InterruptedException, IOException {
 		String username= common.getApplicationproperity("username");
 		String password= common.getApplicationproperity("password");

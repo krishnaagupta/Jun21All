@@ -55,7 +55,7 @@ public class Contacts extends BaseTest {
 	public void CloseReport() throws InterruptedException {
 		//driver.close();
 	}	
-	//@Test
+	@Test  (priority=1)
 	public  void tc25() throws InterruptedException, IOException {	
 		common.clickOn(driver, ct.contactsClick, 4);
 		common.clickOn(driver, cp.noThanks, 2);
@@ -87,7 +87,7 @@ public class Contacts extends BaseTest {
 		
 		
 	}
-	//@Test
+	@Test  (priority=2)
 	public  void tc26() throws InterruptedException, IOException {	
 		common.clickOn(driver, ct.contactsClick, 4);
 		common.clickOn(driver, cp.noThanks, 2);
@@ -118,7 +118,7 @@ public class Contacts extends BaseTest {
 		 common.myassertequal(driver.getTitle(),common.getApplicationproperity("createview") , display1, display2);
 		
 	}	
-	//@Test
+	@Test  (priority=3)
 	public  void tc27() throws InterruptedException, IOException {
 		common.clickOn(driver, ct.contactsClick, 4);
 		common.clickOn(driver, cp.noThanks, 2);
@@ -145,7 +145,7 @@ public class Contacts extends BaseTest {
 		System.out.println("tittle"+ driver.getTitle());//? assertions pending
 		
 	}
-	//@Test
+	@Test  (priority=4)
 	public  void tc28() throws InterruptedException, IOException {
 		common.clickOn(driver, ct.contactsClick, 4);
 		common.clickOn(driver, cp.noThanks, 2);
@@ -168,7 +168,7 @@ public class Contacts extends BaseTest {
 		
 		
 	}
-	//@Test
+@Test  (priority=5)
 	public  void tc29() throws InterruptedException, IOException {
 		common.clickOn(driver, ct.contactsClick, 4);
 		common.clickOn(driver, cp.noThanks, 2);
@@ -186,7 +186,7 @@ public class Contacts extends BaseTest {
 		
 	
 	}
-	@Test
+	@Test (priority=6)
 	public  void tc30() throws InterruptedException, IOException {
 		common.clickOn(driver, ct.contactsClick, 4);
 		common.clickOn(driver, cp.noThanks, 2);

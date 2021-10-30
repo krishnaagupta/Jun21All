@@ -10,6 +10,9 @@
    <class name="TestCases.LoginTestCase"/>
    <class name="TestCases.Home"/>
    <class name="TestCases.CreateAccount"/>
+   <class name="TestCases.CreateOpty"/>
+   <class name="TestCases.Contacts"/>
+   <class name="TestCases.Leads"/>
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

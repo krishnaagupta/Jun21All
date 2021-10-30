@@ -51,11 +51,11 @@ public class CreateAccount extends BaseTest {
 	}
 	@AfterMethod
 	public void CloseReport() throws InterruptedException {
-		//driver.close();
+		driver.close();
 	}	
 
 	//Select user menu for <username> drop down
-	//@Test
+	@Test (priority=1)
 	public  void tc10() throws InterruptedException, IOException {
 		String username= common.getApplicationproperity("username");
 		String password= common.getApplicationproperity("password");
@@ -112,7 +112,7 @@ public class CreateAccount extends BaseTest {
 
 
 	}
-	//@Test
+	@Test  (priority=2)
 	public  void tc11() throws InterruptedException, IOException {
 		String username= common.getApplicationproperity("username");
 		String password= common.getApplicationproperity("password");
@@ -163,7 +163,7 @@ public class CreateAccount extends BaseTest {
 		ExtentTestManager.getTest().log(Status.PASS, "View saved Test11 pass");
 		log.info("View saved Test 11 pass ");
 	}
-	//@Test
+	@Test  (priority=3)
 	public  void tc12() throws InterruptedException, IOException {
 		String username= common.getApplicationproperity("username");
 		String password= common.getApplicationproperity("password");
@@ -245,7 +245,7 @@ public class CreateAccount extends BaseTest {
 
 
 	}
-	//@Test
+	@Test  (priority=4)
 	public  void tc13() throws InterruptedException, IOException {	
 		String username= common.getApplicationproperity("username");
 		String password= common.getApplicationproperity("password");
@@ -312,7 +312,7 @@ public class CreateAccount extends BaseTest {
 		driver.switchTo().parentFrame();
 	}
 	
-	@Test
+	@Test (priority=5)
 	public  void tc14() throws InterruptedException, IOException {	
 		String username= common.getApplicationproperity("username");
 		String password= common.getApplicationproperity("password");

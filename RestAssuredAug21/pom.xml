@@ -4,6 +4,27 @@
   <artifactId>RestAssuredProjectAug21</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>RestAssuredProjectAug21</name>
+<properties>
+   <maven.compiler.source>1.8</maven.compiler.source>
+   <maven.compiler.target>1.8</maven.compiler.target>
+ </properties> 
+
+<build>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>2.22.2</version>
+			<configuration>
+				<suiteXmlFiles> 
+					<suiteXmlFile>
+						Page1.xml
+					</suiteXmlFile> 
+				</suiteXmlFiles>
+			</configuration>
+		</plugin>
+	</plugins>
+</build>
 
 <dependencies>
 <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->

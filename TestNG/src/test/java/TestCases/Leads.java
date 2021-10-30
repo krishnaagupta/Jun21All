@@ -54,7 +54,7 @@ public class Leads extends BaseTest {
 	public void CloseReport() throws InterruptedException {
 		driver.close();
 	}	
-	//@Test
+	@Test  (priority=1)
 	public  void tc20() throws InterruptedException, IOException {	
 		common.clickOn(driver, le.leadsClick, 4);
 		common.clickOn(driver, cp.noThanks, 2);
@@ -66,7 +66,7 @@ public class Leads extends BaseTest {
 
 
 	}
-	//@Test
+	@Test  (priority=2)
 	public  void tc21() throws InterruptedException, IOException {	
 		common.clickOn(driver, le.leadsClick, 4);
 		common.clickOn(driver, cp.noThanks, 2);
@@ -101,7 +101,7 @@ public class Leads extends BaseTest {
 		common.myassertcontains(driver.getCurrentUrl(), "logout", display1, display2);
 
 	}
-	//@Test
+	@Test  (priority=3)
 	public  void tc22() throws InterruptedException, IOException {
 		common.clickOn(driver, le.leadsClick, 4);
 		common.clickOn(driver, cp.noThanks, 2);
@@ -151,7 +151,7 @@ public class Leads extends BaseTest {
 
 
 	}
-	//@Test
+	@Test  (priority=4)
 	public  void tc23() throws InterruptedException, IOException {
 		common.clickOn(driver, le.leadsClick, 4);
 		common.clickOn(driver, cp.noThanks, 2);
@@ -181,7 +181,7 @@ public class Leads extends BaseTest {
 
 	}
 
-	@Test
+	@Test  (priority=5)
 	public  void tc24() throws InterruptedException, IOException {
 		common.clickOn(driver, le.leadsClick, 4);
 		common.clickOn(driver, cp.noThanks, 7);

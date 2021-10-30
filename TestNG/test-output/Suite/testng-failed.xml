@@ -6,14 +6,50 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestCases.LoginTestCase">
+      <class name="TestCases.Leads">
         <methods>
-          <include name="tc1login"/>
+          <include name="CloseReport"/>
+          <include name="tc22"/>
+          <include name="beforeTest"/>
+          <include name="tc23"/>
+          <include name="afterSuite"/>
+          <include name="tc24"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- TestCases.Leads -->
+      <class name="TestCases.Home">
+        <methods>
+          <include name="tc7"/>
+          <include name="beforeTest"/>
+          <include name="tc5"/>
+          <include name="tc6"/>
           <include name="afterSuite"/>
           <include name="beforeSuite"/>
+          <include name="CloseReport"/>
+        </methods>
+      </class> <!-- TestCases.Home -->
+      <class name="TestCases.CreateAccount">
+        <methods>
+          <include name="tc13"/>
+          <include name="CloseReport"/>
+          <include name="tc12"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="tc10"/>
+          <include name="tc11"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- TestCases.LoginTestCase -->
+      </class> <!-- TestCases.CreateAccount -->
+      <class name="TestCases.Contacts">
+        <methods>
+          <include name="tc28"/>
+          <include name="tc26"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="CloseReport"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- TestCases.Contacts -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

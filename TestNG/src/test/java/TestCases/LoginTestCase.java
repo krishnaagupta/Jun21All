@@ -52,7 +52,7 @@ public class LoginTestCase extends BaseTest{
 	}
 
 	//Login To SalesForce -2 -with valid details
-	//@Test
+	@Test (priority=1)
 	public  void tc2login() throws InterruptedException, IOException {
 
 		String username= common.getApplicationproperity("username");
@@ -74,7 +74,7 @@ public class LoginTestCase extends BaseTest{
 	
 
 	}
-	//@Test
+	@Test (priority=2)
 	//Login To SalesForce -1-Login Error Message - 1
 	public  void tc1login() throws InterruptedException, IOException {
 		String username= common.getApplicationproperity("username");
@@ -98,7 +98,7 @@ public class LoginTestCase extends BaseTest{
 	}
 
 	// Test case -3 Test the remember username check box
-	@Test
+	@Test (priority=3)
 	public  void tc3login() throws InterruptedException, IOException {
 		String username= common.getApplicationproperity("username");
 		String password= common.getApplicationproperity("password");
@@ -158,7 +158,7 @@ public class LoginTestCase extends BaseTest{
 
 		}
 	}
-//@Test
+@Test (priority=4)
 	// test case 4a-Forgot Password- 4 A
 	public  void tc4alogin() throws InterruptedException, IOException {
 		CommonUtils.clickOn(driver,lp.forgotPassword, 2);
@@ -204,7 +204,7 @@ public class LoginTestCase extends BaseTest{
 	}
 	
 	// tc-4b Forgot Password- 4 B
-	//@Test
+	@Test (priority=5)
 	public  void tc4blogin() throws InterruptedException, IOException {
 		String username= common.getApplicationproperity("wrongUser");
 		String password= common.getApplicationproperity("wrongpwd");

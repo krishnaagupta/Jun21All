@@ -1379,3 +1379,81 @@
 2021-10-07 16:14:37 INFO  BasePage:37 - Test Start
 2021-10-07 16:14:59 INFO  CommonUtils:103 - Contacts Page  displayed
 2021-10-07 16:15:01 INFO  CommonUtils:103 - Error message displayed
+2021-10-18 09:22:40 INFO  BasePage:37 - Test Start
+2021-10-18 09:22:59 INFO  LoginTestCase:65 - The login is successfull and URl is right 
+2021-10-18 09:23:08 INFO  LoginTestCase:90 - Error message is correct 
+2021-10-18 09:23:14 INFO  LoginTestCase:109 - Username Password entered
+2021-10-18 09:23:16 INFO  LoginTestCase:113 - Remember me is checked
+2021-10-18 09:23:19 INFO  LoginTestCase:117 - login clicked
+2021-10-18 09:23:22 INFO  LoginTestCase:123 - The login is successfull and URl is right 
+2021-10-18 09:23:24 INFO  LoginTestCase:135 - logout clicked
+2021-10-18 09:23:26 ERROR LoginTestCase:144 - login  URl is not right 
+2021-10-18 09:23:27 INFO  LoginTestCase:153 - User name displayed and test is pass 
+2021-10-18 09:23:34 INFO  LoginTestCase:166 - Forgot password clicked 
+2021-10-18 09:23:34 INFO  LoginTestCase:173 -  forgot password page is displayed 
+2021-10-18 09:23:34 INFO  LoginTestCase:185 - Username  entered
+2021-10-18 09:23:35 INFO  LoginTestCase:190 - continueButton clicked
+2021-10-18 09:23:35 ERROR LoginTestCase:198 - email not sent 
+2021-10-18 09:23:41 INFO  LoginTestCase:214 -  wrong Username Password entered
+2021-10-18 09:23:44 INFO  LoginTestCase:219 - login clicked
+2021-10-18 09:23:58 INFO  BasePage:63 - The login is successfull and URl is right 
+2021-10-18 09:23:59 INFO  BasePage:74 - User Dropdown clicked 
+2021-10-18 09:23:59 ERROR BasePage:98 - DropDown Items not Matching 
+2021-10-18 09:24:15 INFO  BasePage:113 - The login is successfull and URl is right 
+2021-10-18 09:24:15 INFO  BasePage:124 - User Dropdown clicked 
+2021-10-18 09:24:17 INFO  BasePage:128 - Logout Clicked
+2021-10-18 09:24:17 ERROR BasePage:136 - Test passed sales force page displayed 
+2021-10-18 09:24:31 INFO  BasePage:150 - The login is successfull and URl is right 
+2021-10-18 09:24:32 INFO  BasePage:161 - User Dropdown clicked 
+2021-10-18 09:24:32 INFO  BasePage:167 - Developer console clicked 
+2021-10-18 09:24:33 INFO  BasePage:172 - developer console Home page displayed
+2021-10-18 09:24:48 INFO  BasePage:63 - The login is successfull and URl is right 
+2021-10-18 09:24:49 INFO  BasePage:74 - User Dropdown clicked 
+2021-10-18 09:24:49 ERROR BasePage:98 - DropDown Items not Matching 
+2021-10-18 09:25:04 INFO  BasePage:296 - The login is successfull and URl is right 
+2021-10-18 09:25:05 INFO  BasePage:307 - User Dropdown clicked 
+2021-10-18 09:25:06 INFO  BasePage:312 - Myprofile page displayed 
+2021-10-18 09:25:25 INFO  BasePage:67 - The login is successfull and URl is right 
+2021-10-18 09:25:26 INFO  BasePage:81 - account home page seen 
+2021-10-18 09:25:29 INFO  BasePage:96 - new button clicked 
+2021-10-18 09:25:43 INFO  BasePage:124 - The login is successfull and URl is right 
+2021-10-18 09:25:44 INFO  BasePage:138 - account home page seen 
+2021-10-18 09:26:09 INFO  BasePage:175 - The login is successfull and URl is right 
+2021-10-18 09:26:10 INFO  BasePage:189 - account home page seen 
+2021-10-18 09:26:27 INFO  BasePage:257 - The login is successfull and URl is right 
+2021-10-18 09:26:28 INFO  BasePage:270 - account home page seen 
+2021-10-18 09:27:01 INFO  BasePage:324 - The login is successfull and URl is right 
+2021-10-18 09:27:02 INFO  BasePage:338 - account home page seen 
+2021-10-18 09:27:30 INFO  CommonUtils:103 - Oppoturnity screen  displayed
+2021-10-18 09:27:30 INFO  CommonUtils:103 - The oppoturnity dropdown displayed correctly
+2021-10-18 09:27:50 INFO  CommonUtils:103 - Oppoturnity screen  displayed
+2021-10-18 09:27:51 INFO  CommonUtils:103 - Oppoturnity edit screen  displayed
+2021-10-18 09:28:12 INFO  CommonUtils:103 - Oppoturnity screen  displayed
+2021-10-18 09:28:13 INFO  CommonUtils:119 - Oppoturnity pipeline screen  displayed
+2021-10-18 09:28:32 INFO  CommonUtils:103 - Oppoturnity screen  displayed
+2021-10-18 09:28:32 INFO  CommonUtils:103 - Stuck Oppoturnity screen  displayed
+2021-10-18 09:28:52 INFO  CommonUtils:103 - Oppoturnity screen  displayed
+2021-10-18 09:28:53 INFO  CommonUtils:103 - Opportunity Report displayed
+2021-10-18 09:28:53 INFO  CommonUtils:119 - quaterlySummeryInterval displayed
+2021-10-18 09:28:53 INFO  CommonUtils:119 - reportquaterlySummeryInclude displayed
+2021-10-18 09:29:23 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-18 09:29:28 INFO  CommonUtils:119 - Contacts Page  displayed
+2021-10-18 09:29:48 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-18 09:29:50 INFO  CommonUtils:103 - View Name View Unique entered
+2021-10-18 09:29:51 ERROR CommonUtils:108 - view not created and not saved
+2021-10-18 09:30:15 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-18 09:30:15 INFO  CommonUtils:103 - recently created selected
+2021-10-18 09:30:38 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-18 09:31:08 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-18 09:31:30 INFO  CommonUtils:103 - Contacts Page  displayed
+2021-10-18 09:31:32 INFO  CommonUtils:103 - Error message displayed
+2021-10-18 09:31:53 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-18 09:32:14 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-18 09:32:15 INFO  CommonUtils:103 - LeadsDropDown not Verified
+2021-10-18 09:32:16 INFO  CommonUtils:119 - Logged out 
+2021-10-18 09:32:37 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-18 09:32:38 INFO  CommonUtils:119 - Today's leads clicked 
+2021-10-18 09:32:39 INFO  CommonUtils:119 - Logged out 
+2021-10-18 09:32:44 INFO  CommonUtils:119 - Logged in again 
+2021-10-18 09:33:55 INFO  CommonUtils:103 - Leads Page  displayed
+2021-10-18 09:33:55 INFO  CommonUtils:103 -  new Leads Page  displayed
