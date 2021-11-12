@@ -11,27 +11,27 @@ public class MergeSortMyWay {
 		}
 	}		
 	public static void mergesort(int crr[]) {
-	int len=crr.length;
-	int mid=len/2;
-	if (len< 2)
-	{
-		return ;// even though the methoos is void the return here just exits the code 
-	}
-	int k=0;
-	int left []=new int [mid];
-	int right[]=new int[len-mid];
-	for (int i=0;i<len;i++) {
-		if (i<mid) {
-			left[i]=crr[i];
+		int len=crr.length;
+		int mid=len/2;
+		if (len< 2)
+		{
+			return ;// even though the methoos is void the return here just exits the code 
 		}
-		else {
-			right[k]=crr[i];
-			k++;
+		int k=0;
+		int left []=new int [mid];
+		int right[]=new int[len-mid];
+		for (int i=0;i<len;i++) {
+			if (i<mid) {
+				left[i]=crr[i];
+			}
+			else {
+				right[k]=crr[i];
+				k++;
+			}
 		}
-	}
-	mergesort(left);
-	mergesort(right);
-	merge(left,right,crr);
+		mergesort(left);
+		mergesort(right);
+		merge(left,right,crr);
 	}
 	public static void  merge (int left[],int right[],int crr[]) {
 		int i=0,j=0,k=0;

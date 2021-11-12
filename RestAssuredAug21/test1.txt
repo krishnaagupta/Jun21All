@@ -1,0 +1,39 @@
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "amhvyjfjh",
+    "job": "ghschfj"
+}
+HTTP/1.1 201 Created
+Date: Wed, 10 Nov 2021 21:24:43 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 84
+Connection: keep-alive
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"54-2VKy7E3UhBu3r4XWyfgvBV2XvVU"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=c%2Be9UxGyUIk00aaZOuNeNDdrltHZu0xPFIwkeUNUfrNX9nXjukYVspQSSQR44Sc4EOdLl0axa%2BxgYC%2BpPWEusitVkwEwsd2vnBCUncIaw0QGba4jOeyUr7E0tfI%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6ac259679e2b318b-LAX
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+{
+    "name": "amhvyjfjh",
+    "job": "ghschfj",
+    "id": "5",
+    "createdAt": "2021-11-10T21:24:43.036Z"
+}

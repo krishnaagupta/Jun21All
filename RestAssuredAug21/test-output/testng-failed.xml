@@ -5,7 +5,7 @@
     <classes>
       <class name="TestCases.TestCase1">
         <methods>
-          <include name="testLogin1"/>
+          <include name="Jsontomap"/>
           <include name="baeUri"/>
         </methods>
       </class> <!-- TestCases.TestCase1 -->
